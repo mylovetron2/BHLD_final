@@ -1,0 +1,9 @@
+ngay 04-10-2023
+	Sửa định mức M11: quần áo từ 9->6
+	Sửa định mức M2: Bỏ áo mưa
+        Sử phòng phân tích giống M2 (Xóa áo mưa)
+
+Cách xóa định mức:
+DELETE t1
+FROM bhld_ctctu t1 INNER JOIN bhld_ctu t2 ON t1.mact=t2.mact
+WHERE t2.madm="M13" and mavt="501660" and sl=0
