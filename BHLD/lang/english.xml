@@ -1,0 +1,4444 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2022/5/6" version="16.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!--
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="accept" value="Accept" />
+    <!-- v2019 -->
+    <phrase id="actiondeleted" value="Deleted" />
+    <phrase id="actioninserted" value="Inserted" />
+    <phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)" />
+    <phrase id="actionupdated" value="Updated" />
+    <phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)" />
+    <phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)" />
+    <phrase id="activateaccount" value="Your account is activated" />
+    <phrase id="activatefailed" value="Activation failed" />
+    <phrase id="add" value="Add" />
+    <phrase id="addblankrow" value="Add Blank Row" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addbtn" value="Add" client="1" />
+    <!-- v2018 -->
+    <phrase id="addlink" value="Add" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addmasterdetaillink" value="Master/Detail Add" class="icon-md-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Add succeeded" />
+    <phrase id="advancedsearch" value="Advanced Search" />
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="Advanced Search" class="icon-advanced-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="aggregatecolon" value=": " />
+    <!-- v2020 (report) -->
+    <phrase id="aggregateequal" value="=" />
+    <!-- v2020 (report) -->
+    <phrase id="allrecords" value="All" />
+    <phrase id="allword" value="All words" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="anyword" value="Any word" />
+    <phrase id="audittrailautologin" value="autologin" />
+    <phrase id="audittrailfailedattempt" value="failed attempt: %n" />
+    <phrase id="audittrailuserloggedin" value="user already logged in" />
+    <phrase id="audittrailpasswordexpired" value="password expired" />
+    <phrase id="audittraillogin" value="login" />
+    <phrase id="audittraillogout" value="logout" />
+    <phrase id="autologin" value="Auto login until I logout explicitly" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="autologinfailed" value="Auto login failed" />
+    <!-- v2018 -->
+    <phrase id="average" value="Average" />
+    <phrase id="backtolist" value="Back to List" />
+    <phrase id="backtologin" value="Back to login page" />
+    <phrase id="backtomasterrecordpage" value="Back to master table" />
+    <phrase id="batchdeletebegin" value="*** Batch delete begin ***" />
+    <phrase id="batchdeleterollback" value="*** Batch delete rollback ***" />
+    <phrase id="batchdeletesuccess" value="*** Batch delete successful ***" />
+    <phrase id="batchinsertbegin" value="*** Batch insert begin ***" />
+    <phrase id="batchinsertrollback" value="*** Batch insert rollback ***" />
+    <phrase id="batchinsertsuccess" value="*** Batch insert successful ***" />
+    <phrase id="batchupdatebegin" value="*** Batch update begin ***" />
+    <phrase id="batchupdaterollback" value="*** Batch update rollback ***" />
+    <phrase id="batchupdatesuccess" value="*** Batch update successful ***" />
+    <phrase id="booleanno" value="No" />
+    <!-- v2020 (report) -->
+    <phrase id="booleanyes" value="Yes" />
+    <!-- v2020 (report) -->
+    <phrase id="buttonactions" value="Actions" class="icon-options ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonaddedit" value="Add/Edit" class="icon-addedit ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Export" class="fas fa-download ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonimport" value="Import" class="fas fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonlistoptions" value="Options" class="icon-options ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonsearch" value="Search" class="icon-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="Cancel" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancel" class="fas fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="changepwd" value="Change Password" client="1" />
+    <!-- v2020 -->
+    <phrase id="changepwdmsg" value="Change Password" />
+    <!-- v2019 -->
+    <phrase id="changepwdpage" value="Change Password" />
+    <phrase id="changepwdbtn" value="Change" />
+    <phrase id="chartorder" value="Order by" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderxasc" value="Labels Ascending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderxdesc" value="Labels Descending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderyasc" value="Values Ascending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderydesc" value="Values Descending" />
+    <!-- v2020 (report) -->
+    <phrase id="choosefilebtn" value="Choose..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Choose file" />
+    <!-- v11 -->
+    <phrase id="choosefiles" value="Choose files" />
+    <!-- v11 -->
+    <phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1" />
+    <!-- v12 -->
+    <phrase id="clicktodrilldown" value="Click to drill down" />
+    <!-- v2020 (report) -->
+    <phrase id="closeaccountbtn" value="Delete data and close my account" />
+    <!-- v2019 -->
+    <phrase id="closebtn" value="Close" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirm" />
+    <phrase id="confirmbtn" value="Confirm" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="Do you want to cancel?" client="1" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Confirm Password" />
+    <phrase id="conflictcancellink" value="Cancel" />
+    <phrase id="cookieconsentsummary" value="Use this space to summarize your privacy and cookie use policy." />
+    <!-- v2019 -->
+    <phrase id="copy" value="Copy" />
+    <phrase id="copylink" value="Copy" class="icon-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="count" value="Count" />
+    <phrase id="countselected" value="%s selected" client="1" />
+    <!-- v12 -->
+    <phrase id="ctbsumhead" value="Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="currentfilters" value="Current filters:" />
+    <!-- v2020 (report) -->
+    <phrase id="currentpassword" value="Current password: " client="1" />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="'%s' completed" />
+    <phrase id="customactioncancelled" value="'%s' cancelled" />
+    <phrase id="customactionfailed" value="'%s' failed" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="'%s' not allowed" />
+    <!-- v12 -->
+    <phrase id="customview" value="CUSTOM VIEW" />
+    <phrase id="danger" value="Error" client="1" />
+    <!-- v2020 -->
+    <phrase id="delete" value="Delete" />
+    <phrase id="deletebtn" value="Delete" />
+    <phrase id="deletecancelled" value="Delete cancelled" />
+    <phrase id="deleteconfirmmsg" value="Are you sure you want to delete?" client="1" />
+    <phrase id="deletefilter" value="Delete filter" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="Delete filter %s?" client="1" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Delete" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deleteselectedlink" value="Delete Selected Records" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deletesuccess" value="Delete succeeded" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span class='badge badge-info ew-detail-count%c'&gt;%c&lt;/span&gt;" />
+    <!-- v2019 -->
+    <phrase id="downloadbtn" value="Download" />
+    <!-- v2019 -->
+    <phrase id="drilldownallrecords" value="All records" />
+    <!-- v2020 (report) -->
+    <phrase id="drilldownfilters" value="Drill down filters:" />
+    <!-- v2020 (report) -->
+    <phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'" />
+    <phrase id="dupkey" value="Duplicate primary key: '%f'" />
+    <phrase id="edit" value="Edit" />
+    <phrase id="editbtn" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="editlink" value="Edit" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="enterfiltername" value="Enter filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Please enter new password" client="1" />
+    <phrase id="enteroldpassword" value="Please enter old password" client="1" />
+    <phrase id="enterpassword" value="Please enter password" client="1" />
+    <phrase id="enterpwd" value="Please enter password" client="1" />
+    <phrase id="enterrequiredfield" value="Please enter required field - %s" />
+    <!-- v11 -->
+    <phrase id="entersearchcriteria" value="Please enter search criteria" />
+    <phrase id="enterusername" value="Please enter username" client="1" />
+    <phrase id="entervalidatecode" value="Enter the validation code shown" client="1" />
+    <!-- v11 -->
+    <phrase id="entersenderemail" value="Please enter sender email" client="1" />
+    <phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1" />
+    <phrase id="enterrecipientemail" value="Please enter recipient email" client="1" />
+    <phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1" />
+    <phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1" />
+    <phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1" />
+    <phrase id="entersubject" value="Please enter subject" client="1" />
+    <phrase id="emailformsender" value="From" />
+    <phrase id="emailformrecipient" value="To" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Subject" />
+    <phrase id="emailformmessage" value="Message" />
+    <phrase id="emailformcontenttype" value="Send as" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="emptylabel" value="(Empty)" />
+    <!-- v2020 (report) -->
+    <phrase id="enteruid" value="Please enter user ID" client="1" />
+    <phrase id="entervalidemail" value="Please enter valid Email Address" client="1" />
+    <phrase id="exactphrase" value="Exact phrase" />
+    <phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes" />
+    <phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later" />
+    <phrase id="exportchart" value="Exporting chart: " client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportchartdata" value="Exporting chart data" client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportcharterror" value="Failed to export chart: " client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportclassnotfound" value="Export class not found" />
+    <!-- v2019 -->
+    <phrase id="exporting" value="Exporting, please wait..." client="1" />
+    <!-- v2018 -->
+    <phrase id="exportingchart" value="Exporting chart (%c of %t), please wait..." client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exporttocsv" value="Export to CSV" class="icon-csv ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="Email" client="1" />
+    <phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Export to HTML" class="icon-html ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Export to Word" class="icon-word ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Export to XML" class="icon-xml ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtoexport" value="Failed to Export" client="1" />
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="Failed to send mail. " />
+    <phrase id="fieldname" value="Field Name" />
+    <phrase id="fieldrequiredindicator" class="fas fa-asterisk ew-required" />
+    <!-- v2019 -->
+    <phrase id="filenotfound" value="File not found" />
+    <phrase id="filter" value="Filter" />
+    <!-- v12 -->
+    <phrase id="filtername" value="Filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="filters" value="Filters" class="icon-filter ew-icon" />
+    <!-- v12 -->
+    <phrase id="forgotpasswordresponse" value="You will receive password recovery instructions shortly if your email address is registered." />
+    <!-- v2019 -->
+    <phrase id="forgotpwd" value="Forgot Password" client="1" />
+    <!-- v2020 -->
+    <phrase id="generatepassword" value="Generate password" class="fas fa-bolt ew-icon" />
+    <!-- v2019 -->
+    <phrase id="goback" value="Go Back" />
+    <phrase id="gridaddcancelled" value="Grid add cancelled" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Grid Add" class="icon-grid-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancel" class="fas fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="grideditcancelled" value="Grid edit cancelled" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Grid Edit" class="icon-grid-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Insert" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="gridsavelink" value="Save" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="group" value="Groups" />
+    <!-- v2020 (report) -->
+    <phrase id="groupsperpage" value="Groups per page" />
+    <!-- v2020 (report) -->
+    <phrase id="highlight" value="Highlight" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Highlight" class="icon-highlight ew-icon" />
+    <!-- v11 -->
+    <phrase id="homepage" value="Home" class="fas fa-home ew-icon" />
+    <!-- v2019 -->
+    <phrase id="import" value="Import" class="fas fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="importbtn" value="Import" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror1" value="Imported %c of %t records from %f (success: %s, failure: %e)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror2" value=", error: %e" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror3" value="row %i: %d" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror4" value="log file: %l" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfileextension" value="Invalid file extension '%e'" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldname" value="Invalid field name: %f" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldvalue" value="Invalid field value (field name %f): %v" />
+    <!-- v2019 -->
+    <phrase id="importmessagemore" value="(%s more)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagenoheaderrow" value="No header row for import" />
+    <!-- v2019 -->
+    <phrase id="importmessageprogress" value="Importing %c of %t records from %f..." client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageservererror" value="Server error %s: %t" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagesuccess" value="Imported %c of %t records from %f successfully" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploaderror" value="Failed to upload %f: %s" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadcomplete" value="Upload completed" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadprogress" value="Uploading...(p%)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagepleaseselect" value="Please select file" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageincorrectfiletype" value="Incorrect file type" client="1" />
+    <!-- v2019 -->
+    <phrase id="importtext" value="Import" client="1" />
+    <!-- v2019 -->
+    <phrase id="incorrectcreditcard" value="Incorrect credit card number" />
+    <phrase id="incorrectdate" value="Incorrect date (%s)" />
+    <phrase id="incorrectdateymd" value="Incorrect date (yyyy%smm%sdd)" />
+    <phrase id="incorrectdatemdy" value="Incorrect date (mm%sdd%syyyy)" />
+    <phrase id="incorrectdatedmy" value="Incorrect date (dd%smm%syyyy)" />
+    <phrase id="incorrectshortdateymd" value="Incorrect date (yy%smm%sdd)" />
+    <phrase id="incorrectshortdatemdy" value="Incorrect date (mm%sdd%syy)" />
+    <phrase id="incorrectshortdatedmy" value="Incorrect date (dd%smm%syy)" />
+    <phrase id="incorrectemail" value="Incorrect email" client="1" />
+    <phrase id="incorrectfield" value="Incorrect field" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="Incorrect phone number" client="1" />
+    <phrase id="incorrectrange" value="Number must be between %1 and %2" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectssn" value="Incorrect social security number" client="1" />
+    <phrase id="incorrecttime" value="Incorrect time (hh%smm(%sss))" />
+    <phrase id="incorrectzip" value="Incorrect ZIP code" client="1" />
+    <phrase id="info" value="Information" client="1" />
+    <!-- v2020 -->
+    <phrase id="inlineaddlink" value="Inline Add" class="icon-inline-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Inline Copy" class="icon-inline-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Inline Edit" class="icon-inline-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Insert cancelled" />
+    <phrase id="insertfailed" value="Insert failed" client="1" />
+    <phrase id="insertlink" value="Insert" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="insertsuccess" value="Insert succeeded" />
+    <phrase id="invalidemail" value="Invalid Email" />
+    <phrase id="invalidfield" value="Invalid Field" />
+    <phrase id="invalidkeyvalue" value="Invalid key value" />
+    <phrase id="invalidrecord" value="Invalid Record! Key is null" client="1" />
+    <phrase id="invalidpostrequest" value="Invalid post request" />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Invalid Parameter" />
+    <phrase id="invalidpassword" value="Invalid Password" />
+    <phrase id="invalidnewpassword" value="Invalid New Password" />
+    <phrase id="invaliduidpwd" value="Incorrect user name or password" />
+    <phrase id="keep" value="Keep" />
+    <phrase id="language" value="Language" />
+    <phrase id="learnmore" value="Learn More" />
+    <!-- v2019 -->
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="image {current} of {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="previous" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="next" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="close" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="This content failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="This image failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="list" value="" />
+    <!-- v2019 -->
+    <phrase id="listactionbutton" value="Actions" class="fas fa-ellipsis-v" />
+    <!-- v2020 -->
+    <phrase id="loading" value="Loading..." client="1" />
+    <phrase id="login" value="Login" client="1" />
+    <!-- v2020 -->
+    <phrase id="logincancelled" value="Login cancelled" />
+    <phrase id="loginfacebook" value="Login with Facebook" />
+    <!-- v2018 -->
+    <phrase id="loginfailed" value="Login with %p failed" />
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="Login with Google" />
+    <!-- v2018 -->
+    <phrase id="loginmsg" value="Sign in to start your session" />
+    <!-- v2019 -->
+    <phrase id="loginoptions" value="Options" />
+    <!-- v11 -->
+    <phrase id="loginor" value="- OR -" />
+    <!-- v2018 -->
+    <phrase id="loginpage" value="Login" />
+    <phrase id="logout" value="Logout" />
+    <phrase id="lookuplink" value="Lookup - %s" class="fas fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="masterdetailcopylink" value="Master/Detail Copy" class="icon-md-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Master/Detail Edit" class="icon-md-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Detail List" class="icon-table ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="Master/Detail View" class="icon-md-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterrecord" value="Master Record: " />
+    <phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1" />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="midnight" value="midnight" client="1" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="Mismatch Password" client="1" />
+    <phrase id="missinglookuptablename" value="Missing lookup table name" />
+    <phrase id="missingdisplayfieldname" value="Missing display field name" />
+    <phrase id="missingdisplayfieldvalue" value="Missing display field value" />
+    <phrase id="missingpdfobject" value="Missing PDFObject" client="1" />
+    <!-- v2020 -->
+    <phrase id="missinguserlevelid" value="Missing User Level ID" />
+    <phrase id="missinguserlevelname" value="Missing User Level name" />
+    <phrase id="mobilemenu" value="Menu" />
+    <phrase id="monthjan" value="Jan" />
+    <!-- v2020 (report) -->
+    <phrase id="monthfeb" value="Feb" />
+    <!-- v2020 (report) -->
+    <phrase id="monthmar" value="Mar" />
+    <!-- v2020 (report) -->
+    <phrase id="monthapr" value="Apr" />
+    <!-- v2020 (report) -->
+    <phrase id="monthmay" value="May" />
+    <!-- v2020 (report) -->
+    <phrase id="monthjun" value="Jun" />
+    <!-- v2020 (report) -->
+    <phrase id="monthjul" value="Jul" />
+    <!-- v2020 (report) -->
+    <phrase id="monthaug" value="Aug" />
+    <!-- v2020 (report) -->
+    <phrase id="monthsep" value="Sep" />
+    <!-- v2020 (report) -->
+    <phrase id="monthoct" value="Oct" />
+    <!-- v2020 (report) -->
+    <phrase id="monthnov" value="Nov" />
+    <!-- v2020 (report) -->
+    <phrase id="monthdec" value="Dec" />
+    <!-- v2020 (report) -->
+    <phrase id="more" value="More" client="1" />
+    <!-- v2018 -->
+    <phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="new" value="New" />
+    <phrase id="newpassword" value="New Password" />
+    <phrase id="newvalue" value="New value" />
+    <!-- v12 -->
+    <phrase id="next" value="Next" client="1" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="No records to be added" client="1" />
+    <phrase id="nofieldselected" value="No field selected for update" client="1" />
+    <phrase id="nopermission" value="You do not have permission to access %s." />
+    <!-- v12.0.6 -->
+    <phrase id="noaddpermission" value="You do not have permission to add the record." />
+    <phrase id="nochartdata" value="No data to display" client="1" />
+    <!-- v2020 -->
+    <phrase id="nodeletepermission" value="You do not have permission to delete the record." />
+    <phrase id="nodistinctcolvals" value="No distinct column values for SQL: " />
+    <!-- v2020 (report) -->
+    <phrase id="noeditpermission" value="You do not have permission to edit the record." />
+    <phrase id="noon" value="noon" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No records found" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No record found for key = " />
+    <phrase id="noreportorcharts" value="No report or charts are available for this page." />
+    <!-- v2020 (report) -->
+    <phrase id="norecordselected" value="No records selected" client="1" />
+    <phrase id="notablegenerated" value="No tables generated" />
+    <phrase id="nouserlevel" value="No user level settings." />
+    <phrase id="nulllabel" value="(Null)" />
+    <!-- v2020 (report) -->
+    <phrase id="of" value="of" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="Old" />
+    <phrase id="oldpassword" value="Old Password" />
+    <phrase id="optionalreadyexist" value="Option already exists" />
+    <phrase id="overwritebtn" value="Overwrite" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Overwrite" />
+    <phrase id="page" value="Page" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="First" />
+    <phrase id="pagerlast" value="Last" />
+    <phrase id="pagernext" value="Next" />
+    <phrase id="pagerprevious" value="Previous" />
+    <phrase id="password" value="Password" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Password Request" />
+    <phrase id="passwordchanged" value="Password Changed" />
+    <phrase id="passwordexpired" value="Password Expired. Please change password." />
+    <phrase id="passwordstrength" value="Strength: %p" client="1" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Your password is too simple" client="1" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permissions" class="icon-user ew-icon" />
+    <!-- v11 -->
+    <phrase id="permissionadd" value="Add/Copy" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionadmin" value="Admin" client="1" />
+    <!-- v2019 -->
+    <phrase id="permissiondelete" value="Delete" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionimport" value="Import" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionlistsearchview" value="List/Search/View" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="List" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlookup" value="Lookup" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionsearch" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionview" value="View" client="1" />
+    <!-- v2018 -->
+    <phrase id="personaldatabtn" value="Personal Data" />
+    <!-- v2019 -->
+    <phrase id="personaldatacontent" value="Your account contains personal data that you have given us. This page allows you to download or delete that data." />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletefailure" value="Unexpected error occurred deleting user" />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletesuccess" value="Personal data deleted successfully" />
+    <!-- v2019 -->
+    <phrase id="personaldatatitle" value="Personal Data" />
+    <!-- v2019 -->
+    <phrase id="personaldatawarning" value="Deleting this data will permanently remove your account, and this cannot be recovered." />
+    <!-- v2019 -->
+    <phrase id="pickdate" value="Pick a date" />
+    <phrase id="pleaseselect" value="Please select" client="1" />
+    <!-- v12 -->
+    <phrase id="pleasewait" value="Please wait..." client="1" />
+    <phrase id="prev" value="Prev" client="1" />
+    <!-- v12 -->
+    <phrase id="primarykeyunspecified" value="Primary key unspecified" />
+    <phrase id="printerfriendly" value="Printer Friendly" class="icon-print ew-icon" />
+    <!-- v11 -->
+    <phrase id="printerfriendlytext" value="Printer Friendly" />
+    <phrase id="privacypolicy" value="Privacy Policy" />
+    <!-- v2019 -->
+    <phrase id="privacypolicycontent" value="Use this page to detail your site's privacy policy." />
+    <!-- v2019 -->
+    <phrase id="qtr1" value="1st Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr2" value="2nd Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr3" value="3rd Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr4" value="4th Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="quicksearch" value="Quick Search" />
+    <phrase id="quicksearchbtn" value="Search" />
+    <phrase id="quicksearchauto" value="Auto" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="All keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="All" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Any keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Any" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Exact match" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exact" client="1" />
+    <!-- v11 -->
+    <phrase id="record" value="Records" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data." />
+    <phrase id="recorddeleted" value="record(s) deleted" />
+    <phrase id="recordinserted" value="record(s) inserted" />
+    <phrase id="recordupdated" value="record(s) updated" />
+    <phrase id="recordsperpage" value="Page size" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Register" client="1" />
+    <!-- v2020 -->
+    <phrase id="registerbtn" value="Register" />
+    <phrase id="registersuccess" value="Registration succeeded" />
+    <phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account." />
+    <phrase id="registerpage" value="Registration" />
+    <phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'" />
+    <phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'" />
+    <phrase id="reloadbtn" value="Reload" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Reload" />
+    <phrase id="rememberme" value="Remember me" />
+    <phrase id="remove" value="Remove" />
+    <phrase id="replace" value="Replace" />
+    <phrase id="report" value="Report" />
+    <phrase id="resetpwd" value="Reset Password" />
+    <!-- v2020 -->
+    <phrase id="resetpwdmsg" value="Reset Password" />
+    <!-- v2020 -->
+    <phrase id="resendregisteremailbtn" value="Resend registration email" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed" />
+    <!-- v12 -->
+    <phrase id="reset" value="Reset" />
+    <phrase id="resetallfilter" value="Reset all filters" class="icon-reset-search ew-icon" />
+    <!-- v2020 (report) -->
+    <phrase id="resetconcurrentuserbtn" value="Reset concurrent user session" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Reset login retry count" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Reset" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Reset" />
+    <phrase id="rptavg" value="AVG" />
+    <!-- v2020 (report) -->
+    <phrase id="rptcnt" value="COUNT" />
+    <!-- v2020 (report) -->
+    <phrase id="rptdtlrec" value=" detail records" />
+    <!-- v2020 (report) -->
+    <phrase id="rptgrandsummary" value="Grand Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="rptmax" value="MAX" />
+    <!-- v2020 (report) -->
+    <phrase id="rptmin" value="MIN" />
+    <!-- v2020 (report) -->
+    <phrase id="rptpagesummary" value="Page Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="rptsum" value="SUM" />
+    <!-- v2020 (report) -->
+    <phrase id="rptsumhead" value="Summary for %c: %v" />
+    <!-- v2020 (report) -->
+    <phrase id="savebtn" value="Save" client="1" />
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="Save current filter" />
+    <!-- v12 -->
+    <phrase id="saveusername" value="Save my user name" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="search" value="Search" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="searchlink" value="Search" class="fas fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="searchpanel" value="Search Panel" />
+    <!-- v11 -->
+    <phrase id="selectbtn" value="Select" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Send" />
+    <phrase id="sendemailsuccess" value="Email sent successfully" client="1" />
+    <phrase id="sendpwd" value="Send" client="1" />
+    <!-- v2020 -->
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="An error occured while communicating to the server." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1" />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Your session has expired." client="1" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Set password expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Show all" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Show all" />
+    <!-- v11 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="success" value="Success" client="1" />
+    <!-- v2020 -->
+    <phrase id="summary" value="Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="summarycolon" value=": " />
+    <!-- v2020 (report) -->
+    <phrase id="table" value="TABLE" />
+    <phrase id="tableorview" value="Tables" client="1" />
+    <!-- v2018 -->
+    <phrase id="tasks" value="Tasks" />
+    <!-- v2020 (report) -->
+    <phrase id="tbltypetable" value="Table: " />
+    <phrase id="tbltypeview" value="View: " />
+    <phrase id="tbltypecustomview" value="Custom View: " />
+    <phrase id="tbltypereport" value="Report: " />
+    <phrase id="to" value="to" />
+    <phrase id="top" value="Top" />
+    <!-- v2020 (report) -->
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)." />
+    <phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f" />
+    <phrase id="update" value="Update" />
+    <phrase id="updatebtn" value="Update" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Update cancelled" />
+    <phrase id="updatefailed" value="Update failed" />
+    <phrase id="updatelink" value="Update" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="updateselectall" value="Select all" />
+    <!-- v11 -->
+    <phrase id="updateselectedlink" value="Update Selected Records" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="updatesuccess" value="Update succeeded" />
+    <phrase id="uploading" value="Uploading..." client="1" />
+    <phrase id="uploadstart" value="Start" client="1" />
+    <phrase id="uploadcancel" value="Cancel" client="1" />
+    <phrase id="uploaddelete" value="Delete" client="1" />
+    <phrase id="uploadoverwrite" value="Overwrite old file?" client="1" />
+    <phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini" />
+    <phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form" />
+    <phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded" />
+    <phrase id="uploaderrmsg4" value="No file was uploaded" />
+    <phrase id="uploaderrmsg6" value="Missing a temporary folder" />
+    <phrase id="uploaderrmsg7" value="Failed to write file to disk" />
+    <phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload" />
+    <phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini" />
+    <phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="File is too small" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="File type not allowed" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width" />
+    <phrase id="uploaderrmsgminwidth" value="Image requires a minimum width" />
+    <phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height" />
+    <phrase id="uploaderrmsgminheight" value="Image requires a minimum height" />
+    <phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1" />
+    <phrase id="useradministrator" value="Administrator" client="1" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anonymous" client="1" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="User already exists" />
+    <phrase id="userlevel" value="User Level: " />
+    <phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1" />
+    <phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="User Level Permissions" />
+    <phrase id="userlevelidinteger" value="User Level ID must be integer" client="1" />
+    <phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1" />
+    <phrase id="userloggedin" value="User '%u' already logged in" />
+    <phrase id="username" value="User Name" />
+    <phrase id="usernotfound" value="User '%u' not found" />
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again" />
+    <phrase id="valuenotexist" value="Value does not exist" client="1" />
+    <!-- v11 -->
+    <phrase id="view" value="View" />
+    <phrase id="viewimagegallery" value="Click to view image" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="View" class="icon-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Add" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagecopylink" value="Copy" class="icon-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="Delete" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Edit" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="warning" value="Warning" client="1" />
+    <!-- v2020 -->
+    <phrase id="week" value="Week" />
+    <!-- v2020 (report) -->
+    <phrase id="wrongfiletype" value="File type is not allowed." client="1" />
+    <phrase id="year" value="Year" />
+    <!-- v2020 (report) -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v12 -->
+    <phrase id="equal" value="=" />
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="does not contain" />
+    <!-- v11.0.3 -->
+    <phrase id="starts with" value="starts with" />
+    <phrase id="ends with" value="ends with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="between" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" client="1" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" client="1" />
+    <!-- v2017 -->
+    <!-- Menu Prefix/Suffix (v2020 (report)) -->
+    <phrase id="simplereportmenuitemprefix" value="" />
+    <phrase id="simplereportmenuitemsuffix" value="" />
+    <phrase id="detailsummaryreportmenuitemprefix" value="" />
+    <phrase id="detailsummaryreportmenuitemsuffix" value="" />
+    <phrase id="crosstabreportmenuitemprefix" value="" />
+    <phrase id="crosstabreportmenuitemsuffix" value="" />
+    <phrase id="chartreportmenuitemprefix" value="" />
+    <phrase id="chartreportmenuitemsuffix" value="" />
+    <!-- Advanced Filter (v2020 (report)) -->
+    <phrase id="future" value="Future" />
+    <phrase id="past" value="Past" />
+    <phrase id="last14days" value="Last 14 days" />
+    <phrase id="last30days" value="Last 30 days" />
+    <phrase id="last7days" value="Last 7 days" />
+    <phrase id="next14days" value="Next 14 days" />
+    <phrase id="next30days" value="Next 30 days" />
+    <phrase id="next7days" value="Next 7 days" />
+    <phrase id="today" value="Today" />
+    <phrase id="tomorrow" value="Tomorrow" />
+    <phrase id="yesterday" value="Yesterday" />
+    <phrase id="lastmonth" value="Last month" />
+    <phrase id="nextmonth" value="Next month" />
+    <phrase id="thismonth" value="This month" />
+    <phrase id="lasttwoweeks" value="Last two weeks" />
+    <phrase id="lastweek" value="Last week" />
+    <phrase id="nexttwoweeks" value="Next two weeks" />
+    <phrase id="nextweek" value="Next week" />
+    <phrase id="thisweek" value="This week" />
+    <phrase id="lastyear" value="Last year" />
+    <phrase id="nextyear" value="Next year" />
+    <phrase id="thisyear" value="This year" />
+  </global>
+  <project>
+    <phrase id="footertext" value="BHLD 2.0" />
+    <menu id="242">
+      <phrase id="menutext" value="bhld view nhanvien dinhmuc" />
+    </menu>
+    <menu id="243">
+      <phrase id="menutext" value="bhld view nhanvien dinhmuc min" />
+    </menu>
+    <menu id="110">
+      <phrase id="menutext" value="Phòng ban" />
+    </menu>
+    <menu id="114">
+      <phrase id="menutext" value="Danh sách nhân viên" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="Danh mục vật tư" />
+    </menu>
+    <menu id="108">
+      <phrase id="menutext" value="Định mức" />
+    </menu>
+    <menu id="111">
+      <phrase id="menutext" value="Chứng từ cấp phát" />
+    </menu>
+    <menu id="116">
+      <phrase id="menutext" value="In chứng từ cấp phát" />
+    </menu>
+    <menu id="240">
+      <phrase id="menutext" value="BHLD đã nhận" />
+    </menu>
+    <menu id="119">
+      <phrase id="menutext" value="BHLD đã nhận theo nhân viên" />
+    </menu>
+    <menu id="241">
+      <phrase id="menutext" value="BHLD đã nhận theo tháng" />
+    </menu>
+    <menu id="120">
+      <phrase id="menutext" value="chi tiết nhận" />
+    </menu>
+    <menu id="115">
+      <phrase id="menutext" value="bhld view chungtu chuanhan 1" />
+    </menu>
+    <menu id="117">
+      <phrase id="menutext" value="bhld view chungtu danhan" />
+    </menu>
+    <menu id="118">
+      <phrase id="menutext" value="Danh sách đã nhận" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="ban giao" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="bao cao hang ngay" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="bo phan" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="bo phan 2" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="chi tiet cham cong" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="chi tiet chuyen gian" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="chi tiet event" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="chi tiet lam them" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="chi tiet nhom" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="chitiet bangiao" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="chitiet donhang" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="cnc chi tiet phieu nhap" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="cnc chi tiet phieu xuat" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="cnc phieu xuat" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="cnc vat tu" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="cong bien" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="cong bien lam dem" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="cong hang ngay" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="cong them" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="danh muc cham cong" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="danh muc nguon tai chinh" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="don hang" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="events" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="gian khoan" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="giay denghi lamthem" />
+    </menu>
+    <menu id="27">
+      <phrase id="menutext" value="giay di bien" />
+    </menu>
+    <menu id="28">
+      <phrase id="menutext" value="gieng khoan" />
+    </menu>
+    <menu id="29">
+      <phrase id="menutext" value="hososcbd iso" />
+    </menu>
+    <menu id="30">
+      <phrase id="menutext" value="import lam dem thang 7" />
+    </menu>
+    <menu id="31">
+      <phrase id="menutext" value="import temp" />
+    </menu>
+    <menu id="32">
+      <phrase id="menutext" value="import th" />
+    </menu>
+    <menu id="33">
+      <phrase id="menutext" value="import vuot muc gio cong" />
+    </menu>
+    <menu id="34">
+      <phrase id="menutext" value="khach hang" />
+    </menu>
+    <menu id="35">
+      <phrase id="menutext" value="lam dem ghi chu" />
+    </menu>
+    <menu id="36">
+      <phrase id="menutext" value="lenh cong tac" />
+    </menu>
+    <menu id="37">
+      <phrase id="menutext" value="lich su personal" />
+    </menu>
+    <menu id="38">
+      <phrase id="menutext" value="lich su thiet bi" />
+    </menu>
+    <menu id="39">
+      <phrase id="menutext" value="lichsu baoduong tb" />
+    </menu>
+    <menu id="40">
+      <phrase id="menutext" value="mo" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="ngay le" />
+    </menu>
+    <menu id="42">
+      <phrase id="menutext" value="nghi bu" />
+    </menu>
+    <menu id="43">
+      <phrase id="menutext" value="nhan vien" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="nhan vien stt" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="nhom nhan vien" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="phan cong" />
+    </menu>
+    <menu id="47">
+      <phrase id="menutext" value="phan cong bo phan" />
+    </menu>
+    <menu id="48">
+      <phrase id="menutext" value="phan cong cong viec" />
+    </menu>
+    <menu id="49">
+      <phrase id="menutext" value="phan cong lo" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="phan cong thiet bi" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="so an toan" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="so lo" />
+    </menu>
+    <menu id="53">
+      <phrase id="menutext" value="test" />
+    </menu>
+    <menu id="54">
+      <phrase id="menutext" value="thiet bi" />
+    </menu>
+    <menu id="55">
+      <phrase id="menutext" value="thuc hien don hang" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="tram do" />
+    </menu>
+    <menu id="57">
+      <phrase id="menutext" value="tram thiet bi" />
+    </menu>
+    <menu id="58">
+      <phrase id="menutext" value="trang thai cong viec" />
+    </menu>
+    <menu id="59">
+      <phrase id="menutext" value="userlevelpermissions" />
+    </menu>
+    <menu id="60">
+      <phrase id="menutext" value="userlevels" />
+    </menu>
+    <menu id="61">
+      <phrase id="menutext" value="view bao cao" />
+    </menu>
+    <menu id="62">
+      <phrase id="menutext" value="view cc 1" />
+    </menu>
+    <menu id="63">
+      <phrase id="menutext" value="view cc 2 2" />
+    </menu>
+    <menu id="64">
+      <phrase id="menutext" value="view cc 3 2" />
+    </menu>
+    <menu id="65">
+      <phrase id="menutext" value="view cham cong khoi hanh chanh" />
+    </menu>
+    <menu id="66">
+      <phrase id="menutext" value="view gian doc hai" />
+    </menu>
+    <menu id="67">
+      <phrase id="menutext" value="view khach hang" />
+    </menu>
+    <menu id="68">
+      <phrase id="menutext" value="view lich su bao duong" />
+    </menu>
+    <menu id="69">
+      <phrase id="menutext" value="view lichsu baoduong" />
+    </menu>
+    <menu id="70">
+      <phrase id="menutext" value="view lookup" />
+    </menu>
+    <menu id="71">
+      <phrase id="menutext" value="view lookup donhang" />
+    </menu>
+    <menu id="72">
+      <phrase id="menutext" value="view lookup nhom nhan vien" />
+    </menu>
+    <menu id="73">
+      <phrase id="menutext" value="view lookup tram thiet bi" />
+    </menu>
+    <menu id="74">
+      <phrase id="menutext" value="view nguoi di bien" />
+    </menu>
+    <menu id="75">
+      <phrase id="menutext" value="view nguoi di bien temp" />
+    </menu>
+    <menu id="76">
+      <phrase id="menutext" value="view nguoi o bo" />
+    </menu>
+    <menu id="77">
+      <phrase id="menutext" value="view nhan vien lam them" />
+    </menu>
+    <menu id="78">
+      <phrase id="menutext" value="view nhan vien so an toan" />
+    </menu>
+    <menu id="79">
+      <phrase id="menutext" value="view nhanvien chamcong" />
+    </menu>
+    <menu id="80">
+      <phrase id="menutext" value="view phieu nhap" />
+    </menu>
+    <menu id="81">
+      <phrase id="menutext" value="view phieu xuat" />
+    </menu>
+    <menu id="82">
+      <phrase id="menutext" value="view temp ton kho" />
+    </menu>
+    <menu id="83">
+      <phrase id="menutext" value="view test" />
+    </menu>
+    <menu id="84">
+      <phrase id="menutext" value="view thong tin ca nhan" />
+    </menu>
+    <menu id="85">
+      <phrase id="menutext" value="view thuc hien don hang" />
+    </menu>
+    <menu id="86">
+      <phrase id="menutext" value="view tinhcongthem 1" />
+    </menu>
+    <menu id="87">
+      <phrase id="menutext" value="view tinhcongthem 2" />
+    </menu>
+    <menu id="88">
+      <phrase id="menutext" value="view tinhcongthem 2 temp" />
+    </menu>
+    <menu id="89">
+      <phrase id="menutext" value="view tinhcongthem 3" />
+    </menu>
+    <menu id="90">
+      <phrase id="menutext" value="view tinhcongthem 3 temp" />
+    </menu>
+    <menu id="91">
+      <phrase id="menutext" value="view tinhcongthem thang 1" />
+    </menu>
+    <menu id="92">
+      <phrase id="menutext" value="view tinhcongthem thang 10" />
+    </menu>
+    <menu id="93">
+      <phrase id="menutext" value="view tinhcongthem thang 10 temp" />
+    </menu>
+    <menu id="94">
+      <phrase id="menutext" value="view tinhcongthem thang 11" />
+    </menu>
+    <menu id="95">
+      <phrase id="menutext" value="view tinhcongthem thang 11 temp" />
+    </menu>
+    <menu id="96">
+      <phrase id="menutext" value="view tinhcongthem thang 12" />
+    </menu>
+    <menu id="97">
+      <phrase id="menutext" value="view tinhcongthem thang 12 temp" />
+    </menu>
+    <menu id="98">
+      <phrase id="menutext" value="view tinhcongthem thang 1 temp" />
+    </menu>
+    <menu id="99">
+      <phrase id="menutext" value="view tinhcongthem thang 2" />
+    </menu>
+    <menu id="100">
+      <phrase id="menutext" value="view tinhcongthem thang 2 temp" />
+    </menu>
+    <menu id="101">
+      <phrase id="menutext" value="view tinhcongthem thang 3" />
+    </menu>
+    <menu id="102">
+      <phrase id="menutext" value="view tinhcongthem thang 3 temp" />
+    </menu>
+    <menu id="103">
+      <phrase id="menutext" value="view tinhcongthem thang 8" />
+    </menu>
+    <menu id="104">
+      <phrase id="menutext" value="view tinhcongthem thang 8 temp" />
+    </menu>
+    <menu id="105">
+      <phrase id="menutext" value="view tinhcongthem thang 9" />
+    </menu>
+    <menu id="106">
+      <phrase id="menutext" value="view tinhcongthem thang 9 temp" />
+    </menu>
+    <menu id="107">
+      <phrase id="menutext" value="view ton kho" />
+    </menu>
+    <menu id="109">
+      <phrase id="menutext" value="Chi tiết định mức" />
+    </menu>
+    <menu id="112">
+      <phrase id="menutext" value="Chi tiết chứng từ" />
+    </menu>
+    <menu id="113">
+      <phrase id="menutext" value="Chứng từ cấp phát" />
+    </menu>
+    <table id="ban_giao">
+      <phrase id="tblcaption" value="ban giao" />
+      <field id="ban_giao_id">
+        <phrase id="fldcaption" value="ban giao id" />
+      </field>
+      <field id="ma_so">
+        <phrase id="fldcaption" value="ma so" />
+      </field>
+      <field id="nguoi_giao">
+        <phrase id="fldcaption" value="nguoi giao" />
+      </field>
+      <field id="nguoi_nhan">
+        <phrase id="fldcaption" value="nguoi nhan" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="ngay_giao">
+        <phrase id="fldcaption" value="ngay giao" />
+      </field>
+    </table>
+    <table id="bao_cao_hang_ngay">
+      <phrase id="tblcaption" value="bao cao hang ngay" />
+      <field id="bao_cao_id">
+        <phrase id="fldcaption" value="bao cao id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="noi_dung">
+        <phrase id="fldcaption" value="noi dung" />
+      </field>
+    </table>
+    <table id="bhld_dmvattu">
+      <phrase id="tblcaption" value="Danh mục vật tư" />
+      <field id="mavt">
+        <phrase id="fldcaption" value="Mã vật tư" />
+      </field>
+      <field id="tenvt">
+        <phrase id="fldcaption" value="Tên vật tư" />
+      </field>
+      <field id="dvt">
+        <phrase id="fldcaption" value="Đơn vị tính" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="Ghi chú" />
+      </field>
+    </table>
+    <table id="bo_phan">
+      <phrase id="tblcaption" value="bo phan" />
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="ten_bo_phan">
+        <phrase id="fldcaption" value="ten bo phan" />
+      </field>
+    </table>
+    <table id="bo_phan_2">
+      <phrase id="tblcaption" value="bo phan 2" />
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="ten_bo_phan">
+        <phrase id="fldcaption" value="ten bo phan" />
+      </field>
+    </table>
+    <table id="chi_tiet_cham_cong">
+      <phrase id="tblcaption" value="chi tiet cham cong" />
+      <field id="chi_tiet_cham_cong_id">
+        <phrase id="fldcaption" value="chi tiet cham cong id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_muc_id">
+        <phrase id="fldcaption" value="danh muc id" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+    </table>
+    <table id="chi_tiet_chuyen_gian">
+      <phrase id="tblcaption" value="chi tiet chuyen gian" />
+      <field id="chi_tiet_chuyen_gian_id">
+        <phrase id="fldcaption" value="chi tiet chuyen gian id" />
+      </field>
+      <field id="giay_di_bien_id">
+        <phrase id="fldcaption" value="giay di bien id" />
+      </field>
+      <field id="chuyen_toi_gian_id">
+        <phrase id="fldcaption" value="chuyen toi gian id" />
+      </field>
+      <field id="nhiem_vu">
+        <phrase id="fldcaption" value="nhiem vu" />
+      </field>
+      <field id="ngay_chuyen">
+        <phrase id="fldcaption" value="ngay chuyen" />
+      </field>
+      <field id="stt">
+        <phrase id="fldcaption" value="stt" />
+      </field>
+    </table>
+    <table id="chi_tiet_event">
+      <phrase id="tblcaption" value="chi tiet event" />
+      <field id="chi_tiet_event_id">
+        <phrase id="fldcaption" value="chi tiet event id" />
+      </field>
+      <field id="chi_tiet_cham_cong_id">
+        <phrase id="fldcaption" value="chi tiet cham cong id" />
+      </field>
+      <field id="ten_cong_viec">
+        <phrase id="fldcaption" value="ten cong viec" />
+      </field>
+      <field id="lo">
+        <phrase id="fldcaption" value="lo" />
+      </field>
+      <field id="thoi_gian_thuc_hien">
+        <phrase id="fldcaption" value="thoi gian thuc hien" />
+      </field>
+      <field id="thoi_gian_thuc_te">
+        <phrase id="fldcaption" value="thoi gian thuc te" />
+      </field>
+      <field id="xac_nhan">
+        <phrase id="fldcaption" value="xac nhan" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+    </table>
+    <table id="chi_tiet_lam_them">
+      <phrase id="tblcaption" value="chi tiet lam them" />
+      <field id="chi_tiet_lam_them_id">
+        <phrase id="fldcaption" value="chi tiet lam them id" />
+      </field>
+      <field id="giay_denghi_lamthem_id">
+        <phrase id="fldcaption" value="giay denghi lamthem id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="den_ngay">
+        <phrase id="fldcaption" value="den ngay" />
+      </field>
+      <field id="tu_gio">
+        <phrase id="fldcaption" value="tu gio" />
+      </field>
+      <field id="den_gio">
+        <phrase id="fldcaption" value="den gio" />
+      </field>
+      <field id="tra_tien">
+        <phrase id="fldcaption" value="tra tien" />
+      </field>
+      <field id="nghi_bu">
+        <phrase id="fldcaption" value="nghi bu" />
+      </field>
+      <field id="lo_id">
+        <phrase id="fldcaption" value="lo id" />
+      </field>
+    </table>
+    <table id="chi_tiet_nhom">
+      <phrase id="tblcaption" value="chi tiet nhom" />
+      <field id="chi_tiet_nhom_id">
+        <phrase id="fldcaption" value="chi tiet nhom id" />
+      </field>
+      <field id="nhom_nhan_vien_id">
+        <phrase id="fldcaption" value="nhom nhan vien id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+    </table>
+    <table id="chitiet_bangiao">
+      <phrase id="tblcaption" value="chitiet bangiao" />
+      <field id="chitiet_bangiao_id">
+        <phrase id="fldcaption" value="chitiet bangiao id" />
+      </field>
+      <field id="ban_giao_id">
+        <phrase id="fldcaption" value="ban giao id" />
+      </field>
+      <field id="phan_cong_thiet_bi_id">
+        <phrase id="fldcaption" value="phan cong thiet bi id" />
+      </field>
+      <field id="tinh_trang">
+        <phrase id="fldcaption" value="tinh trang" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+    </table>
+    <table id="chitiet_donhang">
+      <phrase id="tblcaption" value="chitiet donhang" />
+      <field id="chitiet_donhang_id">
+        <phrase id="fldcaption" value="chitiet donhang id" />
+      </field>
+      <field id="phan_cong_thiet_bi_id">
+        <phrase id="fldcaption" value="phan cong thiet bi id" />
+      </field>
+      <field id="tinh_trang">
+        <phrase id="fldcaption" value="tinh trang" />
+      </field>
+      <field id="yeu_cau">
+        <phrase id="fldcaption" value="yeu cau" />
+      </field>
+      <field id="don_hang_id">
+        <phrase id="fldcaption" value="don hang id" />
+      </field>
+      <field id="trang_thai_id">
+        <phrase id="fldcaption" value="trang thai id" />
+      </field>
+      <field id="ngay_hoang_thanh">
+        <phrase id="fldcaption" value="ngay hoang thanh" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+    </table>
+    <table id="cnc_chi_tiet_phieu_nhap">
+      <phrase id="tblcaption" value="cnc chi tiet phieu nhap" />
+      <field id="phieu_nhap_id">
+        <phrase id="fldcaption" value="phieu nhap id" />
+      </field>
+      <field id="ma_vat_tu">
+        <phrase id="fldcaption" value="ma vat tu" />
+      </field>
+      <field id="so_luong">
+        <phrase id="fldcaption" value="so luong" />
+      </field>
+      <field id="don_gia">
+        <phrase id="fldcaption" value="don gia" />
+      </field>
+      <field id="thanh_tien">
+        <phrase id="fldcaption" value="thanh tien" />
+      </field>
+      <field id="ngay_nhap">
+        <phrase id="fldcaption" value="ngay nhap" />
+      </field>
+    </table>
+    <table id="cnc_chi_tiet_phieu_xuat">
+      <phrase id="tblcaption" value="cnc chi tiet phieu xuat" />
+      <field id="chi_tiet_phieu_xuat_id">
+        <phrase id="fldcaption" value="chi tiet phieu xuat id" />
+      </field>
+      <field id="phieu_xuat_id">
+        <phrase id="fldcaption" value="phieu xuat id" />
+      </field>
+      <field id="vat_tu_id">
+        <phrase id="fldcaption" value="vat tu id" />
+      </field>
+      <field id="so_luong">
+        <phrase id="fldcaption" value="so luong" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+    </table>
+    <table id="cnc_phieu_xuat">
+      <phrase id="tblcaption" value="cnc phieu xuat" />
+      <field id="phieu_xuat_id">
+        <phrase id="fldcaption" value="phieu xuat id" />
+      </field>
+      <field id="ngay_lap">
+        <phrase id="fldcaption" value="ngay lap" />
+      </field>
+      <field id="cong_trinh">
+        <phrase id="fldcaption" value="cong trinh" />
+      </field>
+      <field id="so_bien_ban">
+        <phrase id="fldcaption" value="so bien ban" />
+      </field>
+      <field id="so_lo">
+        <phrase id="fldcaption" value="so lo" />
+      </field>
+    </table>
+    <table id="cnc_vat_tu">
+      <phrase id="tblcaption" value="cnc vat tu" />
+      <field id="vat_tu_id">
+        <phrase id="fldcaption" value="vat tu id" />
+      </field>
+      <field id="ma_vat_tu">
+        <phrase id="fldcaption" value="ma vat tu" />
+      </field>
+      <field id="ten_vat_tu">
+        <phrase id="fldcaption" value="ten vat tu" />
+      </field>
+      <field id="ma_cu">
+        <phrase id="fldcaption" value="ma cu" />
+      </field>
+      <field id="quy_cach">
+        <phrase id="fldcaption" value="quy cach" />
+      </field>
+      <field id="dvt">
+        <phrase id="fldcaption" value="dvt" />
+      </field>
+      <field id="vi_tri_kho">
+        <phrase id="fldcaption" value="vi tri kho" />
+      </field>
+      <field id="ton_dau_ky">
+        <phrase id="fldcaption" value="ton dau ky" />
+      </field>
+    </table>
+    <table id="cong_bien">
+      <phrase id="tblcaption" value="cong bien" />
+      <field id="cong_bien_id">
+        <phrase id="fldcaption" value="cong bien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="den_ngay">
+        <phrase id="fldcaption" value="den ngay" />
+      </field>
+      <field id="lam_them">
+        <phrase id="fldcaption" value="lam them" />
+      </field>
+      <field id="lam_dem">
+        <phrase id="fldcaption" value="lam dem" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="xac_nhan">
+        <phrase id="fldcaption" value="xac nhan" />
+      </field>
+    </table>
+    <table id="cong_bien_lam_dem">
+      <phrase id="tblcaption" value="cong bien lam dem" />
+      <field id="cong_bien_lam_dem_id">
+        <phrase id="fldcaption" value="cong bien lam dem id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="tu_gio1">
+        <phrase id="fldcaption" value="tu gio 1" />
+      </field>
+      <field id="den_gio1">
+        <phrase id="fldcaption" value="den gio 1" />
+      </field>
+      <field id="tu_gio2">
+        <phrase id="fldcaption" value="tu gio 2" />
+      </field>
+      <field id="den_gio2">
+        <phrase id="fldcaption" value="den gio 2" />
+      </field>
+    </table>
+    <table id="cong_hang_ngay">
+      <phrase id="tblcaption" value="cong hang ngay" />
+      <field id="cong_hang_ngay_id">
+        <phrase id="fldcaption" value="cong hang ngay id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+    </table>
+    <table id="cong_them">
+      <phrase id="tblcaption" value="cong them" />
+      <field id="cong_them_id">
+        <phrase id="fldcaption" value="cong them id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="den_ngay">
+        <phrase id="fldcaption" value="den ngay" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+    </table>
+    <table id="danh_muc_cham_cong">
+      <phrase id="tblcaption" value="danh muc cham cong" />
+      <field id="danh_muc_id">
+        <phrase id="fldcaption" value="danh muc id" />
+      </field>
+      <field id="ky_hieu">
+        <phrase id="fldcaption" value="ky hieu" />
+      </field>
+      <field id="so_gio">
+        <phrase id="fldcaption" value="so gio" />
+      </field>
+      <field id="ten_vn">
+        <phrase id="fldcaption" value="ten vn" />
+      </field>
+      <field id="ten_nga">
+        <phrase id="fldcaption" value="ten nga" />
+      </field>
+      <field id="color_event">
+        <phrase id="fldcaption" value="color event" />
+      </field>
+      <field id="text_color_event">
+        <phrase id="fldcaption" value="text color event" />
+      </field>
+    </table>
+    <table id="danh_muc_nguon_tai_chinh">
+      <phrase id="tblcaption" value="danh muc nguon tai chinh" />
+      <field id="nguon_tai_chinh_id">
+        <phrase id="fldcaption" value="nguon tai chinh id" />
+      </field>
+      <field id="ten_du_an">
+        <phrase id="fldcaption" value="ten du an" />
+      </field>
+    </table>
+    <table id="don_hang">
+      <phrase id="tblcaption" value="don hang" />
+      <field id="don_hang_id">
+        <phrase id="fldcaption" value="don hang id" />
+      </field>
+      <field id="ngay_lap">
+        <phrase id="fldcaption" value="ngay lap" />
+      </field>
+      <field id="nguoi_lap_id">
+        <phrase id="fldcaption" value="nguoi lap id" />
+      </field>
+      <field id="khach_hang">
+        <phrase id="fldcaption" value="khach hang" />
+      </field>
+      <field id="dien_thoai_kh">
+        <phrase id="fldcaption" value="dien thoai kh" />
+      </field>
+      <field id="bo_phan_kh_id">
+        <phrase id="fldcaption" value="bo phan kh id" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+      <field id="trang_thai_id">
+        <phrase id="fldcaption" value="trang thai id" />
+      </field>
+    </table>
+    <table id="events">
+      <phrase id="tblcaption" value="events" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="start">
+        <phrase id="fldcaption" value="start" />
+      </field>
+      <field id="end">
+        <phrase id="fldcaption" value="end" />
+      </field>
+      <field id="title">
+        <phrase id="fldcaption" value="title" />
+      </field>
+    </table>
+    <table id="gian_khoan">
+      <phrase id="tblcaption" value="gian khoan" />
+      <field id="gian_khoan_id">
+        <phrase id="fldcaption" value="gian khoan id" />
+      </field>
+      <field id="ma_gian_khoan">
+        <phrase id="fldcaption" value="ma gian khoan" />
+      </field>
+      <field id="ten_gian_khoan">
+        <phrase id="fldcaption" value="ten gian khoan" />
+      </field>
+      <field id="doc_hai">
+        <phrase id="fldcaption" value="doc hai" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="giay_denghi_lamthem">
+      <phrase id="tblcaption" value="giay denghi lamthem" />
+      <field id="giay_denghi_id">
+        <phrase id="fldcaption" value="giay denghi id" />
+      </field>
+      <field id="bo_phan">
+        <phrase id="fldcaption" value="bo phan" />
+      </field>
+      <field id="noi_dung_cong_viec">
+        <phrase id="fldcaption" value="noi dung cong viec" />
+      </field>
+      <field id="du_an">
+        <phrase id="fldcaption" value="du an" />
+      </field>
+      <field id="dia_diem_thuc_hien">
+        <phrase id="fldcaption" value="dia diem thuc hien" />
+      </field>
+      <field id="xac_nhan">
+        <phrase id="fldcaption" value="xac nhan" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="nguon_tai_chinh_id">
+        <phrase id="fldcaption" value="nguon tai chinh id" />
+      </field>
+    </table>
+    <table id="giay_di_bien">
+      <phrase id="tblcaption" value="giay di bien" />
+      <field id="giay_di_bien_id">
+        <phrase id="fldcaption" value="giay di bien id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="so_cong_lenh">
+        <phrase id="fldcaption" value="so cong lenh" />
+      </field>
+      <field id="ngay_cap">
+        <phrase id="fldcaption" value="ngay cap" />
+      </field>
+      <field id="ngay_di">
+        <phrase id="fldcaption" value="ngay di" />
+      </field>
+      <field id="ngay_ve">
+        <phrase id="fldcaption" value="ngay ve" />
+      </field>
+      <field id="nhiem_vu">
+        <phrase id="fldcaption" value="nhiem vu" />
+      </field>
+      <field id="gian_id">
+        <phrase id="fldcaption" value="gian id" />
+      </field>
+    </table>
+    <table id="gieng_khoan">
+      <phrase id="tblcaption" value="gieng khoan" />
+      <field id="gieng_khoan_id">
+        <phrase id="fldcaption" value="gieng khoan id" />
+      </field>
+      <field id="ten_gieng">
+        <phrase id="fldcaption" value="ten gieng" />
+      </field>
+      <field id="ma_gieng">
+        <phrase id="fldcaption" value="ma gieng" />
+      </field>
+      <field id="ma_vung">
+        <phrase id="fldcaption" value="ma vung" />
+      </field>
+    </table>
+    <table id="hososcbd_iso">
+      <phrase id="tblcaption" value="hososcbd iso" />
+      <field id="stt">
+        <phrase id="fldcaption" value="stt" />
+      </field>
+      <field id="maql">
+        <phrase id="fldcaption" value="maql" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="mavt" />
+      </field>
+      <field id="somay">
+        <phrase id="fldcaption" value="somay" />
+      </field>
+      <field id="ngayyc">
+        <phrase id="fldcaption" value="ngayyc" />
+      </field>
+      <field id="madv">
+        <phrase id="fldcaption" value="madv" />
+      </field>
+      <field id="phieu">
+        <phrase id="fldcaption" value="phieu" />
+      </field>
+      <field id="solg">
+        <phrase id="fldcaption" value="solg" />
+      </field>
+      <field id="cv">
+        <phrase id="fldcaption" value="cv" />
+      </field>
+      <field id="hoso">
+        <phrase id="fldcaption" value="hoso" />
+      </field>
+      <field id="ngyeucau">
+        <phrase id="fldcaption" value="ngyeucau" />
+      </field>
+      <field id="ngnhyeucau">
+        <phrase id="fldcaption" value="ngnhyeucau" />
+      </field>
+      <field id="ngaykt">
+        <phrase id="fldcaption" value="ngaykt" />
+      </field>
+      <field id="ttktbefore">
+        <phrase id="fldcaption" value="ttktbefore" />
+      </field>
+      <field id="honghoc">
+        <phrase id="fldcaption" value="honghoc" />
+      </field>
+      <field id="khacphuc">
+        <phrase id="fldcaption" value="khacphuc" />
+      </field>
+      <field id="ttktafter">
+        <phrase id="fldcaption" value="ttktafter" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="ghichu" />
+      </field>
+      <field id="ngayth">
+        <phrase id="fldcaption" value="ngayth" />
+      </field>
+      <field id="tbdosc">
+        <phrase id="fldcaption" value="tbdosc" />
+      </field>
+      <field id="serialtbdosc">
+        <phrase id="fldcaption" value="serialtbdosc" />
+      </field>
+      <field id="tbdosc1">
+        <phrase id="fldcaption" value="tbdosc 1" />
+      </field>
+      <field id="serialtbdosc1">
+        <phrase id="fldcaption" value="serialtbdosc 1" />
+      </field>
+      <field id="tbdosc2">
+        <phrase id="fldcaption" value="tbdosc 2" />
+      </field>
+      <field id="serialtbdosc2">
+        <phrase id="fldcaption" value="serialtbdosc 2" />
+      </field>
+      <field id="tbdosc3">
+        <phrase id="fldcaption" value="tbdosc 3" />
+      </field>
+      <field id="serialtbdosc3">
+        <phrase id="fldcaption" value="serialtbdosc 3" />
+      </field>
+      <field id="tbdosc4">
+        <phrase id="fldcaption" value="tbdosc 4" />
+      </field>
+      <field id="serialtbdosc4">
+        <phrase id="fldcaption" value="serialtbdosc 4" />
+      </field>
+      <field id="nhomsc">
+        <phrase id="fldcaption" value="nhomsc" />
+      </field>
+      <field id="bg">
+        <phrase id="fldcaption" value="bg" />
+      </field>
+      <field id="ngaybdtt">
+        <phrase id="fldcaption" value="ngaybdtt" />
+      </field>
+      <field id="dong">
+        <phrase id="fldcaption" value="dong" />
+      </field>
+      <field id="noidung">
+        <phrase id="fldcaption" value="noidung" />
+      </field>
+      <field id="ketluan">
+        <phrase id="fldcaption" value="ketluan" />
+      </field>
+      <field id="vitrimaybd">
+        <phrase id="fldcaption" value="vitrimaybd" />
+      </field>
+      <field id="dienthoai">
+        <phrase id="fldcaption" value="dienthoai" />
+      </field>
+      <field id="ycthemkh">
+        <phrase id="fldcaption" value="ycthemkh" />
+      </field>
+      <field id="xemxetxuong">
+        <phrase id="fldcaption" value="xemxetxuong" />
+      </field>
+      <field id="model">
+        <phrase id="fldcaption" value="model" />
+      </field>
+      <field id="slbg">
+        <phrase id="fldcaption" value="slbg" />
+      </field>
+      <field id="lo">
+        <phrase id="fldcaption" value="lo" />
+      </field>
+      <field id="gieng">
+        <phrase id="fldcaption" value="gieng" />
+      </field>
+      <field id="mo">
+        <phrase id="fldcaption" value="mo" />
+      </field>
+      <field id="ghichufinal">
+        <phrase id="fldcaption" value="ghichufinal" />
+      </field>
+    </table>
+    <table id="import_lam_dem_thang7">
+      <phrase id="tblcaption" value="import lam dem thang 7" />
+      <field id="import_id">
+        <phrase id="fldcaption" value="import id" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="dem_thang_truoc">
+        <phrase id="fldcaption" value="dem thang truoc" />
+      </field>
+      <field id="dem_thang_nay">
+        <phrase id="fldcaption" value="dem thang nay" />
+      </field>
+    </table>
+    <table id="import_temp">
+      <phrase id="tblcaption" value="import temp" />
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="at_chung">
+        <phrase id="fldcaption" value="at chung" />
+      </field>
+    </table>
+    <table id="import_th">
+      <phrase id="tblcaption" value="import th" />
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="m12">
+        <phrase id="fldcaption" value="m 12" />
+      </field>
+      <field id="m8">
+        <phrase id="fldcaption" value="m 8" />
+      </field>
+      <field id="m4">
+        <phrase id="fldcaption" value="m 4" />
+      </field>
+      <field id="cong_bo">
+        <phrase id="fldcaption" value="cong bo" />
+      </field>
+      <field id="them_gio">
+        <phrase id="fldcaption" value="them gio" />
+      </field>
+      <field id="nghi_bu">
+        <phrase id="fldcaption" value="nghi bu" />
+      </field>
+      <field id="phep">
+        <phrase id="fldcaption" value="phep" />
+      </field>
+      <field id="nghi_om">
+        <phrase id="fldcaption" value="nghi om" />
+      </field>
+      <field id="dem">
+        <phrase id="fldcaption" value="dem" />
+      </field>
+      <field id="le">
+        <phrase id="fldcaption" value="le" />
+      </field>
+      <field id="import_id">
+        <phrase id="fldcaption" value="import id" />
+      </field>
+    </table>
+    <table id="import_vuot_muc_gio_cong">
+      <phrase id="tblcaption" value="import vuot muc gio cong" />
+      <field id="import_id">
+        <phrase id="fldcaption" value="import id" />
+      </field>
+      <field id="stt">
+        <phrase id="fldcaption" value="stt" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="dau_thang">
+        <phrase id="fldcaption" value="dau thang" />
+      </field>
+      <field id="cuoi_thang">
+        <phrase id="fldcaption" value="cuoi thang" />
+      </field>
+    </table>
+    <table id="khach_hang">
+      <phrase id="tblcaption" value="khach hang" />
+      <field id="khach_hang_id">
+        <phrase id="fldcaption" value="khach hang id" />
+      </field>
+      <field id="ten_khach_hang">
+        <phrase id="fldcaption" value="ten khach hang" />
+      </field>
+      <field id="ten_viet_tat">
+        <phrase id="fldcaption" value="ten viet tat" />
+      </field>
+      <field id="dia_chi">
+        <phrase id="fldcaption" value="dia chi" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="dien_thoai">
+        <phrase id="fldcaption" value="dien thoai" />
+      </field>
+    </table>
+    <table id="lam_dem_ghi_chu">
+      <phrase id="tblcaption" value="lam dem ghi chu" />
+      <field id="lam_dem_ghi_chu_id">
+        <phrase id="fldcaption" value="lam dem ghi chu id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="thang">
+        <phrase id="fldcaption" value="thang" />
+      </field>
+      <field id="lam_dem">
+        <phrase id="fldcaption" value="lam dem" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+      <field id="tro_cap_di_tau">
+        <phrase id="fldcaption" value="tro cap di tau" />
+      </field>
+      <field id="tro_cap_di_tau_ve">
+        <phrase id="fldcaption" value="tro cap di tau ve" />
+      </field>
+      <field id="doc_hai">
+        <phrase id="fldcaption" value="doc hai" />
+      </field>
+      <field id="vuot_muc_dau_thang">
+        <phrase id="fldcaption" value="vuot muc dau thang" />
+      </field>
+      <field id="vuot_muc_cuoi_thang">
+        <phrase id="fldcaption" value="vuot muc cuoi thang" />
+      </field>
+      <field id="lam_dem_bien_thang_truoc">
+        <phrase id="fldcaption" value="lam dem bien thang truoc" />
+      </field>
+      <field id="lam_dem_bien_thang_nay">
+        <phrase id="fldcaption" value="lam dem bien thang nay" />
+      </field>
+      <field id="congbien_thangtruoc">
+        <phrase id="fldcaption" value="congbien thangtruoc" />
+      </field>
+      <field id="lam_le">
+        <phrase id="fldcaption" value="lam le" />
+      </field>
+      <field id="vuot_muc_thang_1">
+        <phrase id="fldcaption" value="vuot muc thang 1" />
+      </field>
+    </table>
+    <table id="lenh_cong_tac">
+      <phrase id="tblcaption" value="lenh cong tac" />
+      <field id="lenh_cong_tac_id">
+        <phrase id="fldcaption" value="lenh cong tac id" />
+      </field>
+      <field id="so_lenh_cong_tac">
+        <phrase id="fldcaption" value="so lenh cong tac" />
+      </field>
+      <field id="so_yeu_cau">
+        <phrase id="fldcaption" value="so yeu cau" />
+      </field>
+      <field id="khach_hang_id">
+        <phrase id="fldcaption" value="khach hang id" />
+      </field>
+      <field id="nguoi_thuc_hien">
+        <phrase id="fldcaption" value="nguoi thuc hien" />
+      </field>
+      <field id="ten_lenh_cong_tac">
+        <phrase id="fldcaption" value="ten lenh cong tac" />
+      </field>
+      <field id="so_lo_id">
+        <phrase id="fldcaption" value="so lo id" />
+      </field>
+      <field id="mo_id">
+        <phrase id="fldcaption" value="mo id" />
+      </field>
+      <field id="gieng_khoan_id">
+        <phrase id="fldcaption" value="gieng khoan id" />
+      </field>
+      <field id="gian_khoan_id">
+        <phrase id="fldcaption" value="gian khoan id" />
+      </field>
+      <field id="thoi_gian_yeu_cau">
+        <phrase id="fldcaption" value="thoi gian yeu cau" />
+      </field>
+      <field id="ngay_toi_gian">
+        <phrase id="fldcaption" value="ngay toi gian" />
+      </field>
+      <field id="ngay_bat_dau_cong_viec">
+        <phrase id="fldcaption" value="ngay bat dau cong viec" />
+      </field>
+      <field id="ngay_ket_thuc_cong_viec">
+        <phrase id="fldcaption" value="ngay ket thuc cong viec" />
+      </field>
+      <field id="ngay_roi_gian">
+        <phrase id="fldcaption" value="ngay roi gian" />
+      </field>
+      <field id="picture">
+        <phrase id="fldcaption" value="picture" />
+      </field>
+      <field id="picturename">
+        <phrase id="fldcaption" value="picture Name" />
+      </field>
+      <field id="picturetype">
+        <phrase id="fldcaption" value="picture Type" />
+      </field>
+      <field id="picturewidth">
+        <phrase id="fldcaption" value="picture Width" />
+      </field>
+      <field id="pictureheight">
+        <phrase id="fldcaption" value="picture Height" />
+      </field>
+      <field id="picturesize">
+        <phrase id="fldcaption" value="picture Size" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+    </table>
+    <table id="lich_su_personal">
+      <phrase id="tblcaption" value="lich su personal" />
+      <field id="lich_su_personal_id">
+        <phrase id="fldcaption" value="lich su personal id" />
+      </field>
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="noi_dung">
+        <phrase id="fldcaption" value="noi dung" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+      <field id="picturename">
+        <phrase id="fldcaption" value="Picture Name" />
+      </field>
+    </table>
+    <table id="lich_su_thiet_bi">
+      <phrase id="tblcaption" value="lich su thiet bi" />
+      <field id="stt">
+        <phrase id="fldcaption" value="stt" />
+      </field>
+      <field id="maql">
+        <phrase id="fldcaption" value="maql" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="mavt" />
+      </field>
+      <field id="somay">
+        <phrase id="fldcaption" value="somay" />
+      </field>
+      <field id="ngayyc">
+        <phrase id="fldcaption" value="ngayyc" />
+      </field>
+      <field id="madv">
+        <phrase id="fldcaption" value="madv" />
+      </field>
+      <field id="phieu">
+        <phrase id="fldcaption" value="phieu" />
+      </field>
+      <field id="solg">
+        <phrase id="fldcaption" value="solg" />
+      </field>
+      <field id="cv">
+        <phrase id="fldcaption" value="cv" />
+      </field>
+      <field id="hoso">
+        <phrase id="fldcaption" value="hoso" />
+      </field>
+      <field id="ngyeucau">
+        <phrase id="fldcaption" value="ngyeucau" />
+      </field>
+      <field id="ngnhyeucau">
+        <phrase id="fldcaption" value="ngnhyeucau" />
+      </field>
+      <field id="ngaykt">
+        <phrase id="fldcaption" value="ngaykt" />
+      </field>
+      <field id="ttktbefore">
+        <phrase id="fldcaption" value="ttktbefore" />
+      </field>
+      <field id="honghoc">
+        <phrase id="fldcaption" value="honghoc" />
+      </field>
+      <field id="khacphuc">
+        <phrase id="fldcaption" value="khacphuc" />
+      </field>
+      <field id="ttktafter">
+        <phrase id="fldcaption" value="ttktafter" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="ghichu" />
+      </field>
+      <field id="ngayth">
+        <phrase id="fldcaption" value="ngayth" />
+      </field>
+      <field id="tbdosc">
+        <phrase id="fldcaption" value="tbdosc" />
+      </field>
+      <field id="serialtbdosc">
+        <phrase id="fldcaption" value="serialtbdosc" />
+      </field>
+      <field id="tbdosc1">
+        <phrase id="fldcaption" value="tbdosc 1" />
+      </field>
+      <field id="serialtbdosc1">
+        <phrase id="fldcaption" value="serialtbdosc 1" />
+      </field>
+      <field id="tbdosc2">
+        <phrase id="fldcaption" value="tbdosc 2" />
+      </field>
+      <field id="serialtbdosc2">
+        <phrase id="fldcaption" value="serialtbdosc 2" />
+      </field>
+      <field id="tbdosc3">
+        <phrase id="fldcaption" value="tbdosc 3" />
+      </field>
+      <field id="serialtbdosc3">
+        <phrase id="fldcaption" value="serialtbdosc 3" />
+      </field>
+      <field id="tbdosc4">
+        <phrase id="fldcaption" value="tbdosc 4" />
+      </field>
+      <field id="serialtbdosc4">
+        <phrase id="fldcaption" value="serialtbdosc 4" />
+      </field>
+      <field id="nhomsc">
+        <phrase id="fldcaption" value="nhomsc" />
+      </field>
+      <field id="bg">
+        <phrase id="fldcaption" value="bg" />
+      </field>
+      <field id="ngaybdtt">
+        <phrase id="fldcaption" value="ngaybdtt" />
+      </field>
+      <field id="dong">
+        <phrase id="fldcaption" value="dong" />
+      </field>
+      <field id="noidung">
+        <phrase id="fldcaption" value="noidung" />
+      </field>
+      <field id="ketluan">
+        <phrase id="fldcaption" value="ketluan" />
+      </field>
+      <field id="vitrimaybd">
+        <phrase id="fldcaption" value="vitrimaybd" />
+      </field>
+      <field id="dienthoai">
+        <phrase id="fldcaption" value="dienthoai" />
+      </field>
+      <field id="ycthemkh">
+        <phrase id="fldcaption" value="ycthemkh" />
+      </field>
+      <field id="xemxetxuong">
+        <phrase id="fldcaption" value="xemxetxuong" />
+      </field>
+      <field id="model">
+        <phrase id="fldcaption" value="model" />
+      </field>
+      <field id="slbg">
+        <phrase id="fldcaption" value="slbg" />
+      </field>
+    </table>
+    <table id="lichsu_baoduong_tb">
+      <phrase id="tblcaption" value="lichsu baoduong tb" />
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+      <field id="ngayyc">
+        <phrase id="fldcaption" value="ngayyc" />
+      </field>
+      <field id="ngaykt">
+        <phrase id="fldcaption" value="ngaykt" />
+      </field>
+      <field id="ngyeucau">
+        <phrase id="fldcaption" value="ngyeucau" />
+      </field>
+      <field id="ngnhyeucau">
+        <phrase id="fldcaption" value="ngnhyeucau" />
+      </field>
+      <field id="ttktbefore">
+        <phrase id="fldcaption" value="ttktbefore" />
+      </field>
+      <field id="honghoc">
+        <phrase id="fldcaption" value="honghoc" />
+      </field>
+      <field id="khacphuc">
+        <phrase id="fldcaption" value="khacphuc" />
+      </field>
+      <field id="ttktafter">
+        <phrase id="fldcaption" value="ttktafter" />
+      </field>
+      <field id="ngayth">
+        <phrase id="fldcaption" value="ngayth" />
+      </field>
+      <field id="ngaybdtt">
+        <phrase id="fldcaption" value="ngaybdtt" />
+      </field>
+      <field id="noidung">
+        <phrase id="fldcaption" value="noidung" />
+      </field>
+      <field id="ketluan">
+        <phrase id="fldcaption" value="ketluan" />
+      </field>
+      <field id="vitrimaybd">
+        <phrase id="fldcaption" value="vitrimaybd" />
+      </field>
+      <field id="dienthoai">
+        <phrase id="fldcaption" value="dienthoai" />
+      </field>
+      <field id="ycthemkh">
+        <phrase id="fldcaption" value="ycthemkh" />
+      </field>
+      <field id="xemxetxuong">
+        <phrase id="fldcaption" value="xemxetxuong" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="ghichu" />
+      </field>
+      <field id="lichsu_baoduong_id">
+        <phrase id="fldcaption" value="lichsu baoduong id" />
+      </field>
+    </table>
+    <table id="mo">
+      <phrase id="tblcaption" value="mo" />
+      <field id="mo_id">
+        <phrase id="fldcaption" value="mo id" />
+      </field>
+      <field id="ten_mo">
+        <phrase id="fldcaption" value="ten mo" />
+      </field>
+    </table>
+    <table id="ngay_le">
+      <phrase id="tblcaption" value="ngay le" />
+      <field id="ngay_le_id">
+        <phrase id="fldcaption" value="ngay le id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+    </table>
+    <table id="nghi_bu">
+      <phrase id="tblcaption" value="nghi bu" />
+      <field id="nghi_bu_id">
+        <phrase id="fldcaption" value="nghi bu id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="den_ngay">
+        <phrase id="fldcaption" value="den ngay" />
+      </field>
+      <field id="nua_ngay">
+        <phrase id="fldcaption" value="nua ngay" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="nhan_vien">
+      <phrase id="tblcaption" value="nhan vien" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="chuc_danh">
+        <phrase id="fldcaption" value="chuc danh" />
+      </field>
+      <field id="luong">
+        <phrase id="fldcaption" value="luong" />
+      </field>
+      <field id="ngay_vao_dk">
+        <phrase id="fldcaption" value="ngay vao dk" />
+      </field>
+      <field id="ngay_vao_ld">
+        <phrase id="fldcaption" value="ngay vao ld" />
+      </field>
+      <field id="ngayll">
+        <phrase id="fldcaption" value="ngayll" />
+      </field>
+      <field id="ngay_sinh">
+        <phrase id="fldcaption" value="ngay sinh" />
+      </field>
+      <field id="ncl1">
+        <phrase id="fldcaption" value="ncl 1" />
+      </field>
+      <field id="ncl2">
+        <phrase id="fldcaption" value="ncl 2" />
+      </field>
+      <field id="ncl3">
+        <phrase id="fldcaption" value="ncl 3" />
+      </field>
+      <field id="dtcq">
+        <phrase id="fldcaption" value="DTCQ" />
+      </field>
+      <field id="dtnr">
+        <phrase id="fldcaption" value="DTNR" />
+      </field>
+      <field id="dtdd">
+        <phrase id="fldcaption" value="DTDD" />
+      </field>
+      <field id="que_quan">
+        <phrase id="fldcaption" value="que quan" />
+      </field>
+      <field id="dia_chi_noi_o">
+        <phrase id="fldcaption" value="dia chi noi o" />
+      </field>
+      <field id="cmnd">
+        <phrase id="fldcaption" value="cmnd" />
+      </field>
+      <field id="noi_cap">
+        <phrase id="fldcaption" value="noi cap" />
+      </field>
+      <field id="ngay_cap">
+        <phrase id="fldcaption" value="ngay cap" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="username">
+        <phrase id="fldcaption" value="username" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+      <field id="_userlevel">
+        <phrase id="fldcaption" value="userlevel" />
+      </field>
+    </table>
+    <table id="nhan_vien_stt">
+      <phrase id="tblcaption" value="nhan vien stt" />
+      <field id="nhan_vien_stt">
+        <phrase id="fldcaption" value="nhan vien stt" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="stt">
+        <phrase id="fldcaption" value="stt" />
+      </field>
+      <field id="char_stt">
+        <phrase id="fldcaption" value="char stt" />
+      </field>
+    </table>
+    <table id="nhom_nhan_vien">
+      <phrase id="tblcaption" value="nhom nhan vien" />
+      <field id="nhom_nhan_vien_id">
+        <phrase id="fldcaption" value="nhom nhan vien id" />
+      </field>
+      <field id="ten_nhom">
+        <phrase id="fldcaption" value="ten nhom" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+    </table>
+    <table id="phan_cong">
+      <phrase id="tblcaption" value="phan cong" />
+      <field id="phan_cong_id">
+        <phrase id="fldcaption" value="phan cong id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="lenh_cong_tac_id">
+        <phrase id="fldcaption" value="lenh cong tac id" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="den_ngay">
+        <phrase id="fldcaption" value="den ngay" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="gian_id">
+        <phrase id="fldcaption" value="gian id" />
+      </field>
+    </table>
+    <table id="phan_cong_bo_phan">
+      <phrase id="tblcaption" value="phan cong bo phan" />
+      <field id="phan_cong_bo_phan_id">
+        <phrase id="fldcaption" value="phan cong bo phan id" />
+      </field>
+      <field id="lenh_cong_tac_id">
+        <phrase id="fldcaption" value="lenh cong tac id" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="phan_tram_thuc_hien">
+        <phrase id="fldcaption" value="phan tram thuc hien" />
+      </field>
+    </table>
+    <table id="phan_cong_cong_viec">
+      <phrase id="tblcaption" value="phan cong cong viec" />
+      <field id="phan_cong_cong_viec_id">
+        <phrase id="fldcaption" value="phan cong cong viec id" />
+      </field>
+      <field id="lenh_cong_tac_id">
+        <phrase id="fldcaption" value="lenh cong tac id" />
+      </field>
+      <field id="dang_cong_viec">
+        <phrase id="fldcaption" value="dang cong viec" />
+      </field>
+      <field id="khoang_do">
+        <phrase id="fldcaption" value="khoang do" />
+      </field>
+    </table>
+    <table id="phan_cong_lo">
+      <phrase id="tblcaption" value="phan cong lo" />
+      <field id="phan_cong_lo_id">
+        <phrase id="fldcaption" value="phan cong lo id" />
+      </field>
+      <field id="lenh_cong_tac_id">
+        <phrase id="fldcaption" value="lenh cong tac id" />
+      </field>
+      <field id="so_lo_id">
+        <phrase id="fldcaption" value="so lo id" />
+      </field>
+    </table>
+    <table id="phan_cong_thiet_bi">
+      <phrase id="tblcaption" value="phan cong thiet bi" />
+      <field id="phan_cong_thiet_bi_id">
+        <phrase id="fldcaption" value="phan cong thiet bi id" />
+      </field>
+      <field id="lenh_cong_tac_id">
+        <phrase id="fldcaption" value="lenh cong tac id" />
+      </field>
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+      <field id="phan_cong_cong_viec_id">
+        <phrase id="fldcaption" value="phan cong cong viec id" />
+      </field>
+      <field id="khoang_do_thuc_te">
+        <phrase id="fldcaption" value="khoang do thuc te" />
+      </field>
+      <field id="thoi_gian_dinh_muc">
+        <phrase id="fldcaption" value="thoi gian dinh muc" />
+      </field>
+      <field id="thoi_gian_thuc_te">
+        <phrase id="fldcaption" value="thoi gian thuc te" />
+      </field>
+    </table>
+    <table id="so_an_toan">
+      <phrase id="tblcaption" value="so an toan" />
+      <field id="so_an_toan_id">
+        <phrase id="fldcaption" value="so an toan id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="at_chung">
+        <phrase id="fldcaption" value="at chung" />
+      </field>
+      <field id="at_dien">
+        <phrase id="fldcaption" value="at dien" />
+      </field>
+      <field id="at_phun">
+        <phrase id="fldcaption" value="at phun" />
+      </field>
+      <field id="bioset">
+        <phrase id="fldcaption" value="bioset" />
+      </field>
+      <field id="at_nhom3">
+        <phrase id="fldcaption" value="at nhom 3" />
+      </field>
+    </table>
+    <table id="so_lo">
+      <phrase id="tblcaption" value="so lo" />
+      <field id="so_lo_id">
+        <phrase id="fldcaption" value="so lo id" />
+      </field>
+      <field id="ten_so_lo">
+        <phrase id="fldcaption" value="ten so lo" />
+      </field>
+    </table>
+    <table id="test">
+      <phrase id="tblcaption" value="test" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+    </table>
+    <table id="thiet_bi">
+      <phrase id="tblcaption" value="thiet bi" />
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+      <field id="ma_so">
+        <phrase id="fldcaption" value="ma so" />
+      </field>
+      <field id="ten">
+        <phrase id="fldcaption" value="ten" />
+      </field>
+      <field id="somay">
+        <phrase id="fldcaption" value="somay" />
+      </field>
+      <field id="model">
+        <phrase id="fldcaption" value="model" />
+      </field>
+      <field id="homay">
+        <phrase id="fldcaption" value="homay" />
+      </field>
+      <field id="dienap">
+        <phrase id="fldcaption" value="dienap" />
+      </field>
+      <field id="thongtincb">
+        <phrase id="fldcaption" value="thongtincb" />
+      </field>
+      <field id="loaidau">
+        <phrase id="fldcaption" value="loaidau" />
+      </field>
+      <field id="bo_phan_so_huu_id">
+        <phrase id="fldcaption" value="bo phan so huu id" />
+      </field>
+      <field id="bdtime">
+        <phrase id="fldcaption" value="bdtime" />
+      </field>
+      <field id="ngayktsd">
+        <phrase id="fldcaption" value="ngayktsd" />
+      </field>
+      <field id="ten_thiet_bi">
+        <phrase id="fldcaption" value="ten thiet bi" />
+      </field>
+    </table>
+    <table id="thuc_hien_don_hang">
+      <phrase id="tblcaption" value="thuc hien don hang" />
+      <field id="thuc_hien_don_hang_id">
+        <phrase id="fldcaption" value="thuc hien don hang id" />
+      </field>
+      <field id="chitiet_donhang_id">
+        <phrase id="fldcaption" value="chitiet donhang id" />
+      </field>
+      <field id="ngay_thuc_hien">
+        <phrase id="fldcaption" value="ngay thuc hien" />
+      </field>
+      <field id="noi_dung_thuc_hien">
+        <phrase id="fldcaption" value="noi dung thuc hien" />
+      </field>
+      <field id="nhan_vien_thuc_hien_id">
+        <phrase id="fldcaption" value="nhan vien thuc hien id" />
+      </field>
+      <field id="so_gio_lam">
+        <phrase id="fldcaption" value="so gio lam" />
+      </field>
+    </table>
+    <table id="tram_do">
+      <phrase id="tblcaption" value="tram do" />
+      <field id="tram_do_id">
+        <phrase id="fldcaption" value="tram do id" />
+      </field>
+      <field id="ten_tram">
+        <phrase id="fldcaption" value="ten tram" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+    </table>
+    <table id="tram_thiet_bi">
+      <phrase id="tblcaption" value="tram thiet bi" />
+      <field id="tram_thiet_bi_id">
+        <phrase id="fldcaption" value="tram thiet bi id" />
+      </field>
+      <field id="tram_do_id">
+        <phrase id="fldcaption" value="tram do id" />
+      </field>
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+    </table>
+    <table id="trang_thai_cong_viec">
+      <phrase id="tblcaption" value="trang thai cong viec" />
+      <field id="trang_thai_id">
+        <phrase id="fldcaption" value="trang thai id" />
+      </field>
+      <field id="ten_trang_thai">
+        <phrase id="fldcaption" value="ten trang thai" />
+      </field>
+    </table>
+    <table id="userlevelpermissions">
+      <phrase id="tblcaption" value="userlevelpermissions" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="tablename" />
+      </field>
+      <field id="permission">
+        <phrase id="fldcaption" value="permission" />
+      </field>
+    </table>
+    <table id="userlevels">
+      <phrase id="tblcaption" value="userlevels" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="userlevelname">
+        <phrase id="fldcaption" value="userlevelname" />
+      </field>
+    </table>
+    <table id="view_bao_cao">
+      <phrase id="tblcaption" value="view bao cao" />
+      <field id="bao_cao_id">
+        <phrase id="fldcaption" value="bao cao id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="noi_dung">
+        <phrase id="fldcaption" value="noi dung" />
+      </field>
+    </table>
+    <table id="view_cc1">
+      <phrase id="tblcaption" value="view cc 1" />
+      <field id="thuc_hien_don_hang_id">
+        <phrase id="fldcaption" value="thuc hien don hang id" />
+      </field>
+      <field id="chitiet_donhang_id">
+        <phrase id="fldcaption" value="chitiet donhang id" />
+      </field>
+      <field id="ngay_thuc_hien">
+        <phrase id="fldcaption" value="ngay thuc hien" />
+      </field>
+      <field id="noi_dung_thuc_hien">
+        <phrase id="fldcaption" value="noi dung thuc hien" />
+      </field>
+      <field id="nhan_vien_thuc_hien_id">
+        <phrase id="fldcaption" value="nhan vien thuc hien id" />
+      </field>
+      <field id="so_gio_lam">
+        <phrase id="fldcaption" value="so gio lam" />
+      </field>
+      <field id="chi_tiet_cham_cong_id">
+        <phrase id="fldcaption" value="chi tiet cham cong id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_muc_id">
+        <phrase id="fldcaption" value="danh muc id" />
+      </field>
+      <field id="ky_hieu">
+        <phrase id="fldcaption" value="ky hieu" />
+      </field>
+      <field id="color_event">
+        <phrase id="fldcaption" value="color event" />
+      </field>
+      <field id="text_color_event">
+        <phrase id="fldcaption" value="text color event" />
+      </field>
+      <field id="ten_vn">
+        <phrase id="fldcaption" value="ten vn" />
+      </field>
+      <field id="so_gio">
+        <phrase id="fldcaption" value="so gio" />
+      </field>
+    </table>
+    <table id="view_cc2_2">
+      <phrase id="tblcaption" value="view cc 2 2" />
+      <field id="thuc_hien_don_hang_id">
+        <phrase id="fldcaption" value="thuc hien don hang id" />
+      </field>
+      <field id="chitiet_donhang_id">
+        <phrase id="fldcaption" value="chitiet donhang id" />
+      </field>
+      <field id="ngay_thuc_hien">
+        <phrase id="fldcaption" value="ngay thuc hien" />
+      </field>
+      <field id="noi_dung_thuc_hien">
+        <phrase id="fldcaption" value="noi dung thuc hien" />
+      </field>
+      <field id="nhan_vien_thuc_hien_id">
+        <phrase id="fldcaption" value="nhan vien thuc hien id" />
+      </field>
+      <field id="so_gio_lam">
+        <phrase id="fldcaption" value="so gio lam" />
+      </field>
+      <field id="chi_tiet_cham_cong_id">
+        <phrase id="fldcaption" value="chi tiet cham cong id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_muc_id">
+        <phrase id="fldcaption" value="danh muc id" />
+      </field>
+      <field id="ky_hieu">
+        <phrase id="fldcaption" value="ky hieu" />
+      </field>
+      <field id="color_event">
+        <phrase id="fldcaption" value="color event" />
+      </field>
+      <field id="text_color_event">
+        <phrase id="fldcaption" value="text color event" />
+      </field>
+      <field id="ten_vn">
+        <phrase id="fldcaption" value="ten vn" />
+      </field>
+      <field id="so_gio">
+        <phrase id="fldcaption" value="so gio" />
+      </field>
+      <field id="ten_thiet_bi">
+        <phrase id="fldcaption" value="ten thiet bi" />
+      </field>
+      <field id="ten_so_lo">
+        <phrase id="fldcaption" value="ten so lo" />
+      </field>
+    </table>
+    <table id="view_cc3_2">
+      <phrase id="tblcaption" value="view cc 3 2" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="sum28so_gio_lam29">
+        <phrase id="fldcaption" value="sum (so gio lam)" />
+      </field>
+      <field id="resourceid">
+        <phrase id="fldcaption" value="resource Id" />
+      </field>
+      <field id="title">
+        <phrase id="fldcaption" value="title" />
+      </field>
+      <field id="color">
+        <phrase id="fldcaption" value="color" />
+      </field>
+      <field id="textcolor">
+        <phrase id="fldcaption" value="text Color" />
+      </field>
+      <field id="start">
+        <phrase id="fldcaption" value="start" />
+      </field>
+      <field id="description">
+        <phrase id="fldcaption" value="description" />
+      </field>
+    </table>
+    <table id="view_cham_cong_khoi_hanh_chanh">
+      <phrase id="tblcaption" value="view cham cong khoi hanh chanh" />
+      <field id="ten_cong_viec">
+        <phrase id="fldcaption" value="ten cong viec" />
+      </field>
+      <field id="lo">
+        <phrase id="fldcaption" value="lo" />
+      </field>
+      <field id="thoi_gian_thuc_hien">
+        <phrase id="fldcaption" value="thoi gian thuc hien" />
+      </field>
+      <field id="thoi_gian_thuc_te">
+        <phrase id="fldcaption" value="thoi gian thuc te" />
+      </field>
+      <field id="xac_nhan">
+        <phrase id="fldcaption" value="xac nhan" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="ngay">
+        <phrase id="fldcaption" value="ngay" />
+      </field>
+      <field id="danh_muc_id">
+        <phrase id="fldcaption" value="danh muc id" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+      <field id="chi_tiet_event_id">
+        <phrase id="fldcaption" value="chi tiet event id" />
+      </field>
+    </table>
+    <table id="view_gian_doc_hai">
+      <phrase id="tblcaption" value="view gian doc hai" />
+      <field id="gian_khoan_id">
+        <phrase id="fldcaption" value="gian khoan id" />
+      </field>
+      <field id="ma_gian_khoan">
+        <phrase id="fldcaption" value="ma gian khoan" />
+      </field>
+      <field id="ten_gian_khoan">
+        <phrase id="fldcaption" value="ten gian khoan" />
+      </field>
+      <field id="doc_hai">
+        <phrase id="fldcaption" value="doc hai" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="view_khach_hang">
+      <phrase id="tblcaption" value="view khach hang" />
+      <field id="khach_hang_id">
+        <phrase id="fldcaption" value="khach hang id" />
+      </field>
+      <field id="ten_khach_hang">
+        <phrase id="fldcaption" value="ten khach hang" />
+      </field>
+      <field id="ten_viet_tat">
+        <phrase id="fldcaption" value="ten viet tat" />
+      </field>
+      <field id="dia_chi">
+        <phrase id="fldcaption" value="dia chi" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="dien_thoai">
+        <phrase id="fldcaption" value="dien thoai" />
+      </field>
+      <field id="so_don_hang">
+        <phrase id="fldcaption" value="so don hang" />
+      </field>
+    </table>
+    <table id="view_lich_su_bao_duong">
+      <phrase id="tblcaption" value="view lich su bao duong" />
+      <field id="stt">
+        <phrase id="fldcaption" value="stt" />
+      </field>
+      <field id="maql">
+        <phrase id="fldcaption" value="maql" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="mavt" />
+      </field>
+      <field id="somay">
+        <phrase id="fldcaption" value="somay" />
+      </field>
+      <field id="ngayyc">
+        <phrase id="fldcaption" value="ngayyc" />
+      </field>
+      <field id="madv">
+        <phrase id="fldcaption" value="madv" />
+      </field>
+      <field id="phieu">
+        <phrase id="fldcaption" value="phieu" />
+      </field>
+      <field id="solg">
+        <phrase id="fldcaption" value="solg" />
+      </field>
+      <field id="cv">
+        <phrase id="fldcaption" value="cv" />
+      </field>
+      <field id="hoso">
+        <phrase id="fldcaption" value="hoso" />
+      </field>
+      <field id="ngyeucau">
+        <phrase id="fldcaption" value="ngyeucau" />
+      </field>
+      <field id="ngnhyeucau">
+        <phrase id="fldcaption" value="ngnhyeucau" />
+      </field>
+      <field id="ngaykt">
+        <phrase id="fldcaption" value="ngaykt" />
+      </field>
+      <field id="ttktbefore">
+        <phrase id="fldcaption" value="ttktbefore" />
+      </field>
+      <field id="honghoc">
+        <phrase id="fldcaption" value="honghoc" />
+      </field>
+      <field id="khacphuc">
+        <phrase id="fldcaption" value="khacphuc" />
+      </field>
+      <field id="ttktafter">
+        <phrase id="fldcaption" value="ttktafter" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="ghichu" />
+      </field>
+      <field id="ngayth">
+        <phrase id="fldcaption" value="ngayth" />
+      </field>
+      <field id="tbdosc">
+        <phrase id="fldcaption" value="tbdosc" />
+      </field>
+      <field id="serialtbdosc">
+        <phrase id="fldcaption" value="serialtbdosc" />
+      </field>
+      <field id="tbdosc1">
+        <phrase id="fldcaption" value="tbdosc 1" />
+      </field>
+      <field id="serialtbdosc1">
+        <phrase id="fldcaption" value="serialtbdosc 1" />
+      </field>
+      <field id="tbdosc2">
+        <phrase id="fldcaption" value="tbdosc 2" />
+      </field>
+      <field id="serialtbdosc2">
+        <phrase id="fldcaption" value="serialtbdosc 2" />
+      </field>
+      <field id="tbdosc3">
+        <phrase id="fldcaption" value="tbdosc 3" />
+      </field>
+      <field id="serialtbdosc3">
+        <phrase id="fldcaption" value="serialtbdosc 3" />
+      </field>
+      <field id="tbdosc4">
+        <phrase id="fldcaption" value="tbdosc 4" />
+      </field>
+      <field id="serialtbdosc4">
+        <phrase id="fldcaption" value="serialtbdosc 4" />
+      </field>
+      <field id="nhomsc">
+        <phrase id="fldcaption" value="nhomsc" />
+      </field>
+      <field id="bg">
+        <phrase id="fldcaption" value="bg" />
+      </field>
+      <field id="ngaybdtt">
+        <phrase id="fldcaption" value="ngaybdtt" />
+      </field>
+      <field id="dong">
+        <phrase id="fldcaption" value="dong" />
+      </field>
+      <field id="noidung">
+        <phrase id="fldcaption" value="noidung" />
+      </field>
+      <field id="ketluan">
+        <phrase id="fldcaption" value="ketluan" />
+      </field>
+      <field id="vitrimaybd">
+        <phrase id="fldcaption" value="vitrimaybd" />
+      </field>
+      <field id="dienthoai">
+        <phrase id="fldcaption" value="dienthoai" />
+      </field>
+      <field id="ycthemkh">
+        <phrase id="fldcaption" value="ycthemkh" />
+      </field>
+      <field id="xemxetxuong">
+        <phrase id="fldcaption" value="xemxetxuong" />
+      </field>
+      <field id="model">
+        <phrase id="fldcaption" value="model" />
+      </field>
+      <field id="slbg">
+        <phrase id="fldcaption" value="slbg" />
+      </field>
+      <field id="lo">
+        <phrase id="fldcaption" value="lo" />
+      </field>
+      <field id="gieng">
+        <phrase id="fldcaption" value="gieng" />
+      </field>
+      <field id="mo">
+        <phrase id="fldcaption" value="mo" />
+      </field>
+      <field id="ghichufinal">
+        <phrase id="fldcaption" value="ghichufinal" />
+      </field>
+    </table>
+    <table id="view_lichsu_baoduong">
+      <phrase id="tblcaption" value="view lichsu baoduong" />
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+      <field id="ma_so">
+        <phrase id="fldcaption" value="ma so" />
+      </field>
+      <field id="somay">
+        <phrase id="fldcaption" value="somay" />
+      </field>
+      <field id="ngayth">
+        <phrase id="fldcaption" value="ngayth" />
+      </field>
+      <field id="honghoc">
+        <phrase id="fldcaption" value="honghoc" />
+      </field>
+      <field id="khacphuc">
+        <phrase id="fldcaption" value="khacphuc" />
+      </field>
+      <field id="noidung">
+        <phrase id="fldcaption" value="noidung" />
+      </field>
+      <field id="ketluan">
+        <phrase id="fldcaption" value="ketluan" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="ghichu" />
+      </field>
+    </table>
+    <table id="view_lookup">
+      <phrase id="tblcaption" value="view lookup" />
+      <field id="ten_thiet_bi">
+        <phrase id="fldcaption" value="ten thiet bi" />
+      </field>
+      <field id="chitiet_bangiao_id">
+        <phrase id="fldcaption" value="chitiet bangiao id" />
+      </field>
+      <field id="phan_cong_thiet_bi_id">
+        <phrase id="fldcaption" value="phan cong thiet bi id" />
+      </field>
+    </table>
+    <table id="view_lookup_donhang">
+      <phrase id="tblcaption" value="view lookup donhang" />
+      <field id="ten_thiet_bi">
+        <phrase id="fldcaption" value="ten thiet bi" />
+      </field>
+      <field id="phan_cong_thiet_bi_id">
+        <phrase id="fldcaption" value="phan cong thiet bi id" />
+      </field>
+    </table>
+    <table id="view_lookup_nhom_nhan_vien">
+      <phrase id="tblcaption" value="view lookup nhom nhan vien" />
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="chi_tiet_nhom_id">
+        <phrase id="fldcaption" value="chi tiet nhom id" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="nhom_nhan_vien_id">
+        <phrase id="fldcaption" value="nhom nhan vien id" />
+      </field>
+    </table>
+    <table id="view_lookup_tram_thiet_bi">
+      <phrase id="tblcaption" value="view lookup tram thiet bi" />
+      <field id="ten_thiet_bi">
+        <phrase id="fldcaption" value="ten thiet bi" />
+      </field>
+      <field id="tram_thiet_bi_id">
+        <phrase id="fldcaption" value="tram thiet bi id" />
+      </field>
+      <field id="tram_do_id">
+        <phrase id="fldcaption" value="tram do id" />
+      </field>
+      <field id="bo_phan_so_huu_id">
+        <phrase id="fldcaption" value="bo phan so huu id" />
+      </field>
+      <field id="thiet_bi_id">
+        <phrase id="fldcaption" value="thiet bi id" />
+      </field>
+    </table>
+    <table id="view_nguoi_di_bien">
+      <phrase id="tblcaption" value="view nguoi di bien" />
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="chuc_danh">
+        <phrase id="fldcaption" value="chuc danh" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="den_ngay">
+        <phrase id="fldcaption" value="den ngay" />
+      </field>
+      <field id="dang_cong_viec">
+        <phrase id="fldcaption" value="dang cong viec" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="gian_id">
+        <phrase id="fldcaption" value="gian id" />
+      </field>
+      <field id="so_lenh_cong_tac">
+        <phrase id="fldcaption" value="so lenh cong tac" />
+      </field>
+      <field id="giay_di_bien_id">
+        <phrase id="fldcaption" value="giay di bien id" />
+      </field>
+      <field id="ngay_chuyen">
+        <phrase id="fldcaption" value="ngay chuyen" />
+      </field>
+      <field id="so_ngay_bien">
+        <phrase id="fldcaption" value="so ngay bien" />
+      </field>
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+    </table>
+    <table id="view_nguoi_di_bien_temp">
+      <phrase id="tblcaption" value="view nguoi di bien temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="ngay_chuyen">
+        <phrase id="fldcaption" value="ngay chuyen" />
+      </field>
+    </table>
+    <table id="view_nguoi_o_bo">
+      <phrase id="tblcaption" value="view nguoi o bo" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+    </table>
+    <table id="view_nhan_vien_lam_them">
+      <phrase id="tblcaption" value="view nhan vien lam them" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="gio_lam_them">
+        <phrase id="fldcaption" value="gio lam them" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_nhan_vien_so_an_toan">
+      <phrase id="tblcaption" value="view nhan vien so an toan" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="at_chung">
+        <phrase id="fldcaption" value="at chung" />
+      </field>
+      <field id="at_dien">
+        <phrase id="fldcaption" value="at dien" />
+      </field>
+      <field id="at_phun">
+        <phrase id="fldcaption" value="at phun" />
+      </field>
+      <field id="bioset">
+        <phrase id="fldcaption" value="bioset" />
+      </field>
+      <field id="at_nhom3">
+        <phrase id="fldcaption" value="at nhom 3" />
+      </field>
+    </table>
+    <table id="view_nhanvien_chamcong">
+      <phrase id="tblcaption" value="view nhanvien chamcong" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="chuc_danh">
+        <phrase id="fldcaption" value="chuc danh" />
+      </field>
+      <field id="dtdd">
+        <phrase id="fldcaption" value="DTDD" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+    </table>
+    <table id="view_phieu_nhap">
+      <phrase id="tblcaption" value="view phieu nhap" />
+      <field id="vat_tu_id">
+        <phrase id="fldcaption" value="vat tu id" />
+      </field>
+      <field id="phieu_nhap_id">
+        <phrase id="fldcaption" value="phieu nhap id" />
+      </field>
+      <field id="ma_vat_tu">
+        <phrase id="fldcaption" value="ma vat tu" />
+      </field>
+      <field id="so_luong">
+        <phrase id="fldcaption" value="so luong" />
+      </field>
+      <field id="don_gia">
+        <phrase id="fldcaption" value="don gia" />
+      </field>
+      <field id="thanh_tien">
+        <phrase id="fldcaption" value="thanh tien" />
+      </field>
+      <field id="ngay_nhap">
+        <phrase id="fldcaption" value="ngay nhap" />
+      </field>
+    </table>
+    <table id="view_phieu_xuat">
+      <phrase id="tblcaption" value="view phieu xuat" />
+      <field id="ngay_lap">
+        <phrase id="fldcaption" value="ngay lap" />
+      </field>
+      <field id="phieu_xuat_id">
+        <phrase id="fldcaption" value="phieu xuat id" />
+      </field>
+      <field id="vat_tu_id">
+        <phrase id="fldcaption" value="vat tu id" />
+      </field>
+      <field id="ma_vat_tu">
+        <phrase id="fldcaption" value="ma vat tu" />
+      </field>
+      <field id="ten_vat_tu">
+        <phrase id="fldcaption" value="ten vat tu" />
+      </field>
+      <field id="so_luong">
+        <phrase id="fldcaption" value="so luong" />
+      </field>
+      <field id="ton_dau_ky">
+        <phrase id="fldcaption" value="ton dau ky" />
+      </field>
+    </table>
+    <table id="view_temp_ton_kho">
+      <phrase id="tblcaption" value="view temp ton kho" />
+      <field id="vattuid">
+        <phrase id="fldcaption" value="vattuid" />
+      </field>
+      <field id="mavattu">
+        <phrase id="fldcaption" value="mavattu" />
+      </field>
+      <field id="tenvattu">
+        <phrase id="fldcaption" value="tenvattu" />
+      </field>
+      <field id="xuat">
+        <phrase id="fldcaption" value="Xuat" />
+      </field>
+      <field id="nhap">
+        <phrase id="fldcaption" value="Nhap" />
+      </field>
+      <field id="tondauky">
+        <phrase id="fldcaption" value="tondauky" />
+      </field>
+      <field id="tongxuattruocthang">
+        <phrase id="fldcaption" value="tongxuattruocthang" />
+      </field>
+      <field id="tongnhaptruocthang">
+        <phrase id="fldcaption" value="tongnhaptruocthang" />
+      </field>
+    </table>
+    <table id="view_test">
+      <phrase id="tblcaption" value="view test" />
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="ten_bo_phan">
+        <phrase id="fldcaption" value="ten bo phan" />
+      </field>
+    </table>
+    <table id="view_thong_tin_ca_nhan">
+      <phrase id="tblcaption" value="view thong tin ca nhan" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="danh_so">
+        <phrase id="fldcaption" value="danh so" />
+      </field>
+      <field id="ten_nhan_vien">
+        <phrase id="fldcaption" value="ten nhan vien" />
+      </field>
+      <field id="chuc_danh">
+        <phrase id="fldcaption" value="chuc danh" />
+      </field>
+      <field id="luong">
+        <phrase id="fldcaption" value="luong" />
+      </field>
+      <field id="ngay_vao_dk">
+        <phrase id="fldcaption" value="ngay vao dk" />
+      </field>
+      <field id="ngay_vao_ld">
+        <phrase id="fldcaption" value="ngay vao ld" />
+      </field>
+      <field id="ngayll">
+        <phrase id="fldcaption" value="ngayll" />
+      </field>
+      <field id="ngay_sinh">
+        <phrase id="fldcaption" value="ngay sinh" />
+      </field>
+      <field id="ncl1">
+        <phrase id="fldcaption" value="ncl 1" />
+      </field>
+      <field id="ncl2">
+        <phrase id="fldcaption" value="ncl 2" />
+      </field>
+      <field id="ncl3">
+        <phrase id="fldcaption" value="ncl 3" />
+      </field>
+      <field id="dtcq">
+        <phrase id="fldcaption" value="DTCQ" />
+      </field>
+      <field id="dtnr">
+        <phrase id="fldcaption" value="DTNR" />
+      </field>
+      <field id="dtdd">
+        <phrase id="fldcaption" value="DTDD" />
+      </field>
+      <field id="que_quan">
+        <phrase id="fldcaption" value="que quan" />
+      </field>
+      <field id="dia_chi_noi_o">
+        <phrase id="fldcaption" value="dia chi noi o" />
+      </field>
+      <field id="cmnd">
+        <phrase id="fldcaption" value="cmnd" />
+      </field>
+      <field id="noi_cap">
+        <phrase id="fldcaption" value="noi cap" />
+      </field>
+      <field id="ngay_cap">
+        <phrase id="fldcaption" value="ngay cap" />
+      </field>
+      <field id="bo_phan_id">
+        <phrase id="fldcaption" value="bo phan id" />
+      </field>
+      <field id="username">
+        <phrase id="fldcaption" value="username" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+      <field id="_userlevel">
+        <phrase id="fldcaption" value="userlevel" />
+      </field>
+    </table>
+    <table id="view_thuc_hien_don_hang">
+      <phrase id="tblcaption" value="view thuc hien don hang" />
+      <field id="chitiet_donhang_id">
+        <phrase id="fldcaption" value="chitiet donhang id" />
+      </field>
+      <field id="phan_cong_thiet_bi_id">
+        <phrase id="fldcaption" value="phan cong thiet bi id" />
+      </field>
+      <field id="tinh_trang">
+        <phrase id="fldcaption" value="tinh trang" />
+      </field>
+      <field id="yeu_cau">
+        <phrase id="fldcaption" value="yeu cau" />
+      </field>
+      <field id="don_hang_id">
+        <phrase id="fldcaption" value="don hang id" />
+      </field>
+      <field id="trang_thai_id">
+        <phrase id="fldcaption" value="trang thai id" />
+      </field>
+      <field id="ngay_hoang_thanh">
+        <phrase id="fldcaption" value="ngay hoang thanh" />
+      </field>
+      <field id="ghi_chu">
+        <phrase id="fldcaption" value="ghi chu" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem1">
+      <phrase id="tblcaption" value="view tinhcongthem 1" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="start">
+        <phrase id="fldcaption" value="start" />
+      </field>
+      <field id="end">
+        <phrase id="fldcaption" value="end" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem2">
+      <phrase id="tblcaption" value="view tinhcongthem 2" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem2_temp">
+      <phrase id="tblcaption" value="view tinhcongthem 2 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="start">
+        <phrase id="fldcaption" value="start" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem3">
+      <phrase id="tblcaption" value="view tinhcongthem 3" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem3_temp">
+      <phrase id="tblcaption" value="view tinhcongthem 3 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang1">
+      <phrase id="tblcaption" value="view tinhcongthem thang 1" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang10">
+      <phrase id="tblcaption" value="view tinhcongthem thang 10" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang10_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 10 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang11">
+      <phrase id="tblcaption" value="view tinhcongthem thang 11" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang11_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 11 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang12">
+      <phrase id="tblcaption" value="view tinhcongthem thang 12" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang12_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 12 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang1_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 1 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang2">
+      <phrase id="tblcaption" value="view tinhcongthem thang 2" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang2_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 2 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang3">
+      <phrase id="tblcaption" value="view tinhcongthem thang 3" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang3_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 3 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang8">
+      <phrase id="tblcaption" value="view tinhcongthem thang 8" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang8_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 8 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang9">
+      <phrase id="tblcaption" value="view tinhcongthem thang 9" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="a150">
+        <phrase id="fldcaption" value="A150" />
+      </field>
+      <field id="a200">
+        <phrase id="fldcaption" value="A200" />
+      </field>
+      <field id="a300">
+        <phrase id="fldcaption" value="A300" />
+      </field>
+      <field id="p150">
+        <phrase id="fldcaption" value="P150" />
+      </field>
+      <field id="p200">
+        <phrase id="fldcaption" value="P200" />
+      </field>
+      <field id="p300">
+        <phrase id="fldcaption" value="P300" />
+      </field>
+    </table>
+    <table id="view_tinhcongthem_thang9_temp">
+      <phrase id="tblcaption" value="view tinhcongthem thang 9 temp" />
+      <field id="nhan_vien_id">
+        <phrase id="fldcaption" value="nhan vien id" />
+      </field>
+      <field id="tu_ngay">
+        <phrase id="fldcaption" value="tu ngay" />
+      </field>
+      <field id="sum150">
+        <phrase id="fldcaption" value="Sum 150" />
+      </field>
+      <field id="sum200">
+        <phrase id="fldcaption" value="Sum 200" />
+      </field>
+      <field id="sum300">
+        <phrase id="fldcaption" value="Sum 300" />
+      </field>
+      <field id="_150">
+        <phrase id="fldcaption" value="150" />
+      </field>
+      <field id="_200">
+        <phrase id="fldcaption" value="200" />
+      </field>
+      <field id="_300">
+        <phrase id="fldcaption" value="300" />
+      </field>
+      <field id="tien_an">
+        <phrase id="fldcaption" value="tien an" />
+      </field>
+    </table>
+    <table id="view_ton_kho">
+      <phrase id="tblcaption" value="view ton kho" />
+      <field id="vattuid">
+        <phrase id="fldcaption" value="vattuid" />
+      </field>
+      <field id="mavattu">
+        <phrase id="fldcaption" value="mavattu" />
+      </field>
+      <field id="tenvattu">
+        <phrase id="fldcaption" value="tenvattu" />
+      </field>
+      <field id="tongxuattrongthang">
+        <phrase id="fldcaption" value="tongxuattrongthang" />
+      </field>
+      <field id="tongnhaptrongthang">
+        <phrase id="fldcaption" value="tongnhaptrongthang" />
+      </field>
+      <field id="soluong_bandau">
+        <phrase id="fldcaption" value="soluong bandau" />
+      </field>
+      <field id="tongxuattruocthang">
+        <phrase id="fldcaption" value="tongxuattruocthang" />
+      </field>
+      <field id="tongnhaptruocthang">
+        <phrase id="fldcaption" value="tongnhaptruocthang" />
+      </field>
+      <field id="tondk">
+        <phrase id="fldcaption" value="tondk" />
+      </field>
+      <field id="toncuoiky">
+        <phrase id="fldcaption" value="toncuoiky" />
+      </field>
+    </table>
+    <table id="bhld_dmuc">
+      <phrase id="tblcaption" value="Định mức" />
+      <field id="madm">
+        <phrase id="fldcaption" value="Mã định mức" />
+      </field>
+      <field id="mota">
+        <phrase id="fldcaption" value="Mô tả" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="Ghi chú" />
+      </field>
+    </table>
+    <table id="bhld_ctdmuc">
+      <phrase id="tblcaption" value="Chi tiết định mức" />
+      <field id="madm">
+        <phrase id="fldcaption" value="Mã định mức" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="Mã vật tư" />
+      </field>
+      <field id="dmuc">
+        <phrase id="fldcaption" value="Định mức" />
+      </field>
+    </table>
+    <table id="bhld_phongban">
+      <phrase id="tblcaption" value="Phòng ban" />
+      <field id="mapb">
+        <phrase id="fldcaption" value="Mã phòng ban" />
+      </field>
+      <field id="tenphong">
+        <phrase id="fldcaption" value="Tên phòng ban" />
+      </field>
+    </table>
+    <table id="bhld_ctu">
+      <phrase id="tblcaption" value="Chứng từ" />
+      <field id="mact">
+        <phrase id="fldcaption" value="Mã CT " />
+      </field>
+      <field id="ngct">
+        <phrase id="fldcaption" value="Ngày Ct" />
+      </field>
+      <field id="mapb">
+        <phrase id="fldcaption" value="Mã phòng ban" />
+      </field>
+      <field id="ma">
+        <phrase id="fldcaption" value="Danh số" />
+      </field>
+      <field id="manv">
+        <phrase id="fldcaption" value="Nhân viên" />
+      </field>
+      <field id="ghichu">
+        <phrase id="fldcaption" value="Ghi chú" />
+      </field>
+      <field id="madm">
+        <phrase id="fldcaption" value="Định mức" />
+      </field>
+    </table>
+    <table id="bhld_ctctu">
+      <phrase id="tblcaption" value="Chi tiết chứng từ" />
+      <field id="mact">
+        <phrase id="fldcaption" value="Mã chứng từ" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="Mã vật tư" />
+      </field>
+      <field id="dmtg">
+        <phrase id="fldcaption" value="Định mức" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="Số lượng" />
+      </field>
+      <field id="ngnhan">
+        <phrase id="fldcaption" value="Ngày nhận" />
+      </field>
+      <field id="ngnhantt">
+        <phrase id="fldcaption" value="Ngày nhận tiếp theo" />
+      </field>
+    </table>
+    <table id="bhld_view_chuanhan">
+      <phrase id="tblcaption" value="Chứng từ cấp phát" />
+      <field id="mact">
+        <phrase id="fldcaption" value="Mã chứng từ" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="Vật tư" />
+      </field>
+      <field id="ngnhan">
+        <phrase id="fldcaption" value="Ngày nhận" />
+      </field>
+      <field id="ngnhantt">
+        <phrase id="fldcaption" value="Ngày nhận tiếp theo" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="Số lượng" />
+      </field>
+      <field id="dmtg">
+        <phrase id="fldcaption" value="danh mục" />
+      </field>
+    </table>
+    <table id="bhld_nhanvien">
+      <phrase id="tblcaption" value="Danh sách nhân viên" />
+      <field id="mapb">
+        <phrase id="fldcaption" value="Phòng ban" />
+      </field>
+      <field id="manv">
+        <phrase id="fldcaption" value="Mã nhân viên" />
+      </field>
+      <field id="tennhanvien">
+        <phrase id="fldcaption" value="Tên nhân viên" />
+      </field>
+      <field id="dinhmuc">
+        <phrase id="fldcaption" value="Định mức" />
+      </field>
+    </table>
+    <table id="bhld_view_chungtu_chuanhan_1">
+      <phrase id="tblcaption" value="bhld view chungtu chuanhan 1" />
+      <field id="manv">
+        <phrase id="fldcaption" value="manv" />
+      </field>
+      <field id="mact">
+        <phrase id="fldcaption" value="mact" />
+      </field>
+      <field id="ngct">
+        <phrase id="fldcaption" value="ngct" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="mavt" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="sl" />
+      </field>
+      <field id="giaybh">
+        <phrase id="fldcaption" value="Giay BH" />
+      </field>
+      <field id="mubh">
+        <phrase id="fldcaption" value="Mu BH" />
+      </field>
+      <field id="aomua">
+        <phrase id="fldcaption" value="Ao Mua" />
+      </field>
+      <field id="quanao">
+        <phrase id="fldcaption" value="Quan Ao" />
+      </field>
+      <field id="kinh">
+        <phrase id="fldcaption" value="Kinh" />
+      </field>
+      <field id="nuttai">
+        <phrase id="fldcaption" value="Nut Tai" />
+      </field>
+      <field id="phinloc">
+        <phrase id="fldcaption" value="Phin Loc" />
+      </field>
+      <field id="madm">
+        <phrase id="fldcaption" value="madm" />
+      </field>
+    </table>
+    <table id="bhld_view_chungtu_chuanhan_final">
+      <phrase id="tblcaption" value="In chứng từ cấp phát" />
+      <field id="manv">
+        <phrase id="fldcaption" value="Mã NV" />
+      </field>
+      <field id="tennhanvien">
+        <phrase id="fldcaption" value="Tên" />
+      </field>
+      <field id="mact">
+        <phrase id="fldcaption" value="Mã chứng từ" />
+      </field>
+      <field id="ngct">
+        <phrase id="fldcaption" value="Ngày CT" />
+      </field>
+      <field id="giaybh">
+        <phrase id="fldcaption" value="Giày BH" />
+      </field>
+      <field id="mubh">
+        <phrase id="fldcaption" value="Mũ BH" />
+      </field>
+      <field id="aomua">
+        <phrase id="fldcaption" value="Áo Mưa" />
+      </field>
+      <field id="quanao">
+        <phrase id="fldcaption" value="Quần Áo" />
+      </field>
+      <field id="kinh">
+        <phrase id="fldcaption" value="Kính" />
+      </field>
+      <field id="mapb">
+        <phrase id="fldcaption" value="Mã Phòng" />
+      </field>
+      <field id="tenphong">
+        <phrase id="fldcaption" value="Tên Phòng" />
+      </field>
+      <field id="nuttai">
+        <phrase id="fldcaption" value="Nut Tai" />
+      </field>
+      <field id="phinloc">
+        <phrase id="fldcaption" value="Phin Loc" />
+      </field>
+    </table>
+    <table id="bhld_view_chungtu_danhan">
+      <phrase id="tblcaption" value="bhld view chungtu danhan" />
+      <field id="mact">
+        <phrase id="fldcaption" value="mact" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="mavt" />
+      </field>
+      <field id="ngnhan">
+        <phrase id="fldcaption" value="ngnhan" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="sl" />
+      </field>
+      <field id="ngnhantt">
+        <phrase id="fldcaption" value="ngnhantt" />
+      </field>
+      <field id="dmtg">
+        <phrase id="fldcaption" value="dmtg" />
+      </field>
+    </table>
+    <table id="bhld_view_chungtu_danhan_final">
+      <phrase id="tblcaption" value="Danh sách đã nhận" />
+      <field id="mact">
+        <phrase id="fldcaption" value="Mã chứng từ" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="Vật tư" />
+      </field>
+      <field id="ngnhan">
+        <phrase id="fldcaption" value="Ngày nhận" />
+      </field>
+      <field id="ngnhantt">
+        <phrase id="fldcaption" value="Ngày nhận tt" />
+      </field>
+      <field id="dmtg">
+        <phrase id="fldcaption" value="định mức" />
+      </field>
+      <field id="manv">
+        <phrase id="fldcaption" value="Nhân viên" />
+      </field>
+      <field id="mapb">
+        <phrase id="fldcaption" value="Phòng ban" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="Số lượng" />
+      </field>
+    </table>
+    <table id="bhld_view_nhanvien">
+      <phrase id="tblcaption" value="BHLD đã nhận" />
+      <field id="mapb">
+        <phrase id="fldcaption" value="Bộ phận" />
+      </field>
+      <field id="manv">
+        <phrase id="fldcaption" value="Mã nhân viên" />
+      </field>
+      <field id="tennhanvien">
+        <phrase id="fldcaption" value="Tên nhân viên" />
+      </field>
+    </table>
+    <table id="bhld_view_chungtu_danhan_theothang">
+      <phrase id="tblcaption" value="chi tiết nhận" />
+      <field id="ngnhan">
+        <phrase id="fldcaption" value="Ngày nhận" />
+      </field>
+      <field id="mact">
+        <phrase id="fldcaption" value="mact" />
+      </field>
+      <field id="mapb">
+        <phrase id="fldcaption" value="Phòng ban" />
+      </field>
+      <field id="manv">
+        <phrase id="fldcaption" value="Nhân viên" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="Vật tư" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="Số lượng" />
+      </field>
+      <field id="ngnhantt">
+        <phrase id="fldcaption" value="ngnhantt" />
+      </field>
+      <field id="dmtg">
+        <phrase id="fldcaption" value="Định mức" />
+      </field>
+      <field id="detail">
+        <phrase id="fldcaption" value="detail" />
+      </field>
+    </table>
+    <table id="_bhld_view_chungtu_danhan_theothang_master">
+      <phrase id="tblcaption" value="BHLD đã nhận theo tháng" />
+      <field id="ngnhan">
+        <phrase id="fldcaption" value="Ngày nhận" />
+      </field>
+      <field id="manv">
+        <phrase id="fldcaption" value="Mã nhân viên" />
+      </field>
+      <field id="mapb">
+        <phrase id="fldcaption" value="phòng ban" />
+      </field>
+      <field id="mact">
+        <phrase id="fldcaption" value="mact" />
+      </field>
+      <field id="mavt">
+        <phrase id="fldcaption" value="mavt" />
+      </field>
+      <field id="ngnhantt">
+        <phrase id="fldcaption" value="ngnhantt" />
+      </field>
+      <field id="dmtg">
+        <phrase id="fldcaption" value="dmtg" />
+      </field>
+      <field id="sl">
+        <phrase id="fldcaption" value="sl" />
+      </field>
+      <field id="detail">
+        <phrase id="fldcaption" value="detail" />
+      </field>
+    </table>
+    <table id="bhld_view_nhanvien_dinhmuc">
+      <phrase id="tblcaption" value="bhld view nhanvien dinhmuc" />
+      <field id="manv">
+        <phrase id="fldcaption" value="manv" />
+      </field>
+      <field id="madm">
+        <phrase id="fldcaption" value="madm" />
+      </field>
+      <field id="max28ngct29">
+        <phrase id="fldcaption" value="MAX(ngct)" />
+      </field>
+      <field id="mapb">
+        <phrase id="fldcaption" value="mapb" />
+      </field>
+    </table>
+    <table id="bhld_view_nhanvien_dinhmuc_min">
+      <phrase id="tblcaption" value="bhld view nhanvien dinhmuc min" />
+      <field id="manv">
+        <phrase id="fldcaption" value="manv" />
+      </field>
+      <field id="madm">
+        <phrase id="fldcaption" value="madm" />
+      </field>
+      <field id="min28ngct29">
+        <phrase id="fldcaption" value="min (ngct)" />
+      </field>
+    </table>
+  </project>
+</ew-language>
